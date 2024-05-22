@@ -1,15 +1,14 @@
 {
   "name": "projexplore",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://akashkumarnayak2004.github.io/showcasehub",
-
+  "version": "1.0.0",
+  "homepage": "https://tushar-kant.github.io/showcasehub",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-      "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
