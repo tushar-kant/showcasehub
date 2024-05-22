@@ -1,0 +1,41 @@
+
+[
+  {
+    "name": "C",
+    "description": "Projects related to C language"
+  },
+    {
+      "name": "React",
+      "description": "Projects related to React"
+    },
+    {
+      "name": "Angular",
+      "description": "Projects related to Angular"
+    },
+    {
+      "name": "Node.js",
+      "description": "Projects related to Node.js"
+    },
+    {
+      "name": "Python",
+      "description": "Projects related to Python"
+    },
+    {
+      "name": "JavaScript",
+      "description": "Projects related to JavaScript"
+    },
+    {
+      "name": "Java",
+      "description": "Projects related to Java"
+    },
+    {
+      "name": "React Native",
+      "description": "Projects related to Mobile Development"
+    },
+
+    {
+      "name": "Machine Learning",
+      "description": "Projects related to Machine Learning"
+    }
+  ]
+  

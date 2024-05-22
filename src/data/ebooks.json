@@ -1,0 +1,304 @@
+[
+  {
+    "title": "React in Action",
+    "author": "Mark Thomas",
+    "category": "web-development",
+    "description": "A comprehensive guide to building user interfaces with React.",
+    "downloadLink": "/ebooks/react-in-action.pdf"
+  },
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "category": "web-development",
+    "description": "Learn the best practices and effective techniques for writing clean and maintainable JavaScript code.",
+    "downloadLink": "/ebooks/javascript-the-good-parts.pdf"
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "category": "web-development",
+    "description": "Discover the power of JavaScript through this comprehensive guide, covering the language fundamentals and advanced concepts.",
+    "downloadLink": "/ebooks/eloquent-javascript.pdf"
+  },
+  {
+    "title": "CSS Secrets",
+    "author": "Lea Verou",
+    "category": "web-development",
+    "description": "Uncover the hidden gems of CSS and learn advanced techniques to create stunning web designs.",
+    "downloadLink": "/ebooks/css-secrets.pdf"
+  },
+  {
+    "title": "HTML and CSS: Design and Build Websites",
+    "author": "Jon Duckett",
+    "category": "web-development",
+    "description": "Get started with HTML and CSS and learn how to design and build beautiful websites.",
+    "downloadLink": "/ebooks/html-and-css-design-and-build-websites.pdf"
+  },
+  {
+    "title": "Learning React",
+    "author": "Alex Banks and Eve Porcello",
+    "category": "web-development",
+    "description": "Master the fundamentals of React and build interactive user interfaces for your web applications.",
+    "downloadLink": "/ebooks/learning-react.pdf"
+  },
+  {
+    "title": "Node.js in Action",
+    "author": "Mike Cantelon, Marc Harter, T.J. Holowaychuk, and Nathan Rajlich",
+    "category": "web-development",
+    "description": "Explore the world of server-side JavaScript with Node.js and build scalable and high-performance web applications.",
+    "downloadLink": "/ebooks/node-js-in-action.pdf"
+  },
+  {
+    "title": "Vue.js: Up and Running",
+    "author": "Callum Macrae",
+    "category": "web-development",
+    "description": "Learn how to build modern and reactive web interfaces with Vue.js.",
+    "downloadLink": "/ebooks/vue-js-up-and-running.pdf"
+  },
+  {
+    "title": "Angular: Up and Running",
+    "author": "Shyam Seshadri and Brad Green",
+    "category": "web-development",
+    "description": "Discover the power of Angular and build scalable and maintainable web applications.",
+    "downloadLink": "/ebooks/angular-up-and-running.pdf"
+  },
+  {
+    "title": "Webpack: From Apprentice to Master",
+    "author": "Sean Larkin",
+    "category": "web-development",
+    "description": "Learn how to optimize and bundle your web applications using Webpack.",
+    "downloadLink": "/ebooks/webpack-from-apprentice-to-master.pdf"
+  },
+  {
+    "title": "Sass for Web Designers",
+    "author": "Dan Cederholm",
+    "category": "web-development",
+    "description": "Enhance your web designs with Sass and streamline your CSS workflow.",
+    "downloadLink": "/ebooks/sass-for-web-designers.pdf"
+  },
+  {
+    "title": "iOS Programming: The Big Nerd Ranch Guide",
+    "author": "Christian Keur and Aaron Hillegass",
+    "category": "mobile-development",
+    "description": "Learn iOS app development with Swift and Xcode through hands-on exercises and real-world examples.",
+    "downloadLink": "/ebooks/ios-programming-the-big-nerd-ranch-guide.pdf"
+  },
+  {
+    "title": "Android Programming: The Big Nerd Ranch Guide",
+    "author": "Bill Phillips and Chris Stewart",
+    "category": "mobile-development",
+    "description": "Master Android app development with Java and Android Studio using practical exercises and detailed explanations.",
+    "downloadLink": "/ebooks/android-programming-the-big-nerd-ranch-guide.pdf"
+  },
+  {
+    "title": "Flutter in Action",
+    "author": "Eric Windmill",
+    "category": "mobile-development",
+    "description": "Discover the power of Flutter and build beautiful cross-platform mobile applications.",
+    "downloadLink": "/ebooks/flutter-in-action.pdf"
+  },
+  {
+    "title": "React Native in Action",
+    "author": "Nader Dabit",
+    "category": "mobile-development",
+    "description": "Learn how to build native mobile apps using React Native and JavaScript.",
+    "downloadLink": "/ebooks/react-native-in-action.pdf"
+  },
+  {
+    "title": "Kotlin for Android Developers",
+    "author": "Antonio Leiva",
+    "category": "mobile-development",
+    "description": "Explore the Kotlin programming language and its features for Android app development.",
+    "downloadLink": "/ebooks/kotlin-for-android-developers.pdf"
+  },
+  {
+    "title": "SwiftUI by Tutorials",
+    "author": "Chris Eidhof, et al.",
+    "category": "mobile-development",
+    "description": "Get started with SwiftUI and build modern user interfaces for iOS, macOS, watchOS, and tvOS.",
+    "downloadLink": "/ebooks/swiftui-by-tutorials.pdf"
+  },
+  {
+    "title": "Mobile Design Pattern Gallery",
+    "author": "Theresa Neil",
+    "category": "mobile-development",
+    "description": "Discover a collection of design patterns for creating effective and user-friendly mobile applications.",
+    "downloadLink": "/ebooks/mobile-design-pattern-gallery.pdf"
+  },
+  {
+    "title": "Ionic in Action",
+    "author": "Jeremy Wilken",
+    "category": "mobile-development",
+    "description": "Learn how to build hybrid mobile apps using Ionic and Angular.",
+    "downloadLink": "/ebooks/ionic-in-action.pdf"
+  },
+  {
+    "title": "Python for Data Analysis",
+    "author": "Wes McKinney",
+    "category": "data-science",
+    "description": "Learn how to use Python for data analysis and manipulation.",
+    "downloadLink": "/ebooks/python-for-data-analysis.pdf"
+  },
+  {
+    "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+    "author": "Aurélien Géron",
+    "category": "data-science",
+    "description": "Explore machine learning techniques using Scikit-Learn and TensorFlow.",
+    "downloadLink": "/ebooks/hands-on-machine-learning.pdf"
+  },
+  {
+    "title": "Data Science for Business",
+    "author": "Foster Provost and Tom Fawcett",
+    "category": "data-science",
+    "description": "Discover how to apply data science to solve business problems.",
+    "downloadLink": "/ebooks/data-science-for-business.pdf"
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville",
+    "category": "data-science",
+    "description": "Learn the fundamentals of deep learning and neural networks.",
+    "downloadLink": "/ebooks/deep-learning.pdf"
+  },
+  {
+    "title": "R for Data Science",
+    "author": "Hadley Wickham and Garrett Grolemund",
+    "category": "data-science",
+    "description": "Discover how to use R for data analysis and visualization.",
+    "downloadLink": "/ebooks/r-for-data-science.pdf"
+  },
+  {
+    "title": "The Elements of Statistical Learning",
+    "author": "Trevor Hastie, Robert Tibshirani, and Jerome Friedman",
+    "category": "data-science",
+    "description": "Explore the principles and techniques of statistical learning.",
+    "downloadLink": "/ebooks/elements-of-statistical-learning.pdf"
+  },
+  {
+    "title": "Practical Statistics for Data Scientists",
+    "author": "Peter Bruce and Andrew Bruce",
+    "category": "data-science",
+    "description": "Learn how to apply statistical concepts to real-world data analysis.",
+    "downloadLink": "/ebooks/practical-statistics-for-data-scientists.pdf"
+  },
+  {
+    "title": "Data Science from Scratch",
+    "author": "Joel Grus",
+    "category": "data-science",
+    "description": "Build your data science skills from the ground up with this hands-on guide.",
+    "downloadLink": "/ebooks/data-science-from-scratch.pdf"
+  },
+  {
+    "title": "Cybersecurity for Beginners",
+    "author": "Raef Meeuwisse",
+    "category": "cybersecurity",
+    "description": "A beginner's guide to understanding cybersecurity and protecting against online threats.",
+    "downloadLink": "/ebooks/cybersecurity-for-beginners.pdf"
+  },
+  {
+    "title": "The Web Application Hacker's Handbook",
+    "author": "Dafydd Stuttard and Marcus Pinto",
+    "category": "cybersecurity",
+    "description": "Learn how to identify and exploit vulnerabilities in web applications.",
+    "downloadLink": "/ebooks/web-application-hackers-handbook.pdf"
+  },
+  {
+    "title": "Hacking: The Art of Exploitation",
+    "author": "Jon Erickson",
+    "category": "cybersecurity",
+    "description": "Explore the techniques and tools used by hackers to exploit computer systems.",
+    "downloadLink": "/ebooks/hacking-the-art-of-exploitation.pdf"
+  },
+  {
+    "title": "Practical Malware Analysis",
+    "author": "Michael Sikorski and Andrew Honig",
+    "category": "cybersecurity",
+    "description": "Learn how to analyze and reverse-engineer malware to understand its behavior and protect against it.",
+    "downloadLink": "/ebooks/practical-malware-analysis.pdf"
+  },
+  {
+    "title": "The Tangled Web: A Guide to Securing Modern Web Applications",
+    "author": "Michal Zalewski",
+    "category": "cybersecurity",
+    "description": "Discover the common security vulnerabilities in web applications and how to mitigate them.",
+    "downloadLink": "/ebooks/the-tangled-web.pdf"
+  },
+  {
+    "title": "CISSP All-in-One Exam Guide",
+    "author": "Shon Harris and Fernando Maymí",
+    "category": "cybersecurity",
+    "description": "Prepare for the CISSP certification exam with this comprehensive guide.",
+    "downloadLink": "/ebooks/cissp-all-in-one-exam-guide.pdf"
+  },
+  {
+    "title": "Mastering Blockchain",
+    "author": "Imran Bashir",
+    "category": "blockchain",
+    "description": "Learn the ins and outs of blockchain technology and how to build decentralized applications.",
+    "downloadLink": "/ebooks/mastering-blockchain.pdf"
+  },
+  {
+    "title": "Blockchain Basics",
+    "author": "Daniel Drescher",
+    "category": "blockchain",
+    "description": "Get a comprehensive introduction to blockchain technology and its applications.",
+    "downloadLink": "/ebooks/blockchain-basics.pdf"
+  },
+  {
+    "title": "Blockchain Revolution",
+    "author": "Don Tapscott and Alex Tapscott",
+    "category": "blockchain",
+    "description": "Explore the potential of blockchain technology to transform industries and society.",
+    "downloadLink": "/ebooks/blockchain-revolution.pdf"
+  },
+  {
+    "title": "Blockchain: Blueprint for a New Economy",
+    "author": "Melanie Swan",
+    "category": "blockchain",
+    "description": "Discover the economic implications of blockchain technology and its impact on various industries.",
+    "downloadLink": "/ebooks/blockchain-blueprint-for-a-new-economy.pdf"
+  },
+  {
+    "title": "The Business Blockchain",
+    "author": "William Mougayar",
+    "category": "blockchain",
+    "description": "Learn how blockchain technology is reshaping the business landscape and creating new opportunities.",
+    "downloadLink": "/ebooks/the-business-blockchain.pdf"
+  },
+  {
+    "title": "Blockchain Basics: A Non-Technical Introduction in 25 Steps",
+    "author": "Daniel Drescher",
+    "category": "blockchain",
+    "description": "Get a beginner-friendly introduction to blockchain technology and its potential applications.",
+    "downloadLink": "/ebooks/blockchain-basics-non-technical-introduction.pdf"
+  },
+  {
+    "title": "Blockchain: Ultimate guide to understanding blockchain, bitcoin, cryptocurrencies, smart contracts and the future of money",
+    "author": "Mark Gates",
+    "category": "blockchain",
+    "description": "Gain a comprehensive understanding of blockchain technology, cryptocurrencies, and their impact on the future of finance.",
+    "downloadLink": "/ebooks/blockchain-ultimate-guide.pdf"
+  },
+  {
+    "title": "C Programming Absolute Beginner's Guide",
+    "author": "Greg Perry and Dean Miller",
+    "category": "C-programming",
+    "description": "Learn the basics of C programming from scratch with this beginner-friendly guide.",
+    "downloadLink": "/ebooks/c-programming-absolute-beginners-guide.pdf"
+  },
+  {
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan and Dennis M. Ritchie",
+    "category": "C-programming",
+    "description": "Explore the fundamentals of C programming with this classic book.",
+    "downloadLink": "/ebooks/the-c-programming-language.pdf"
+  },
+  {
+    "title": "C Programming for the Absolute Beginner",
+    "author": "Michael Vine",
+    "category": "C-programming",
+    "description": "Get started with C programming with this beginner-friendly book that covers the basics.",
+    "downloadLink": "/ebooks/c-programming-for-the-absolute-beginner.pdf"
+  }
+
+]

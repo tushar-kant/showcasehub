@@ -1,0 +1,43 @@
+[
+  {
+    "name": "C-programming",
+    "slug": "C-programming",
+    "description": "Explore C-language programming concepts and techniques for building low-level system software and applications.",
+    "icon": "fas fa-laptop-code"
+  },
+    {
+      "name": "Web Development",
+      "slug": "web-development",
+      "description": "Explore web development technologies and frameworks for building dynamic and interactive websites.",
+      "icon": "fas fa-laptop-code"
+    },
+    {
+      "name": "Mobile Development",
+      "slug": "mobile-development",
+      "description": "Discover mobile development platforms and tools for creating native and cross-platform mobile applications.",
+      "icon": "fas fa-mobile-alt"
+    },
+    {
+      "name": "Data Science",
+      "slug": "data-science",
+      "description": "Learn about data analysis, machine learning, and statistical modeling techniques in the field of data science.",
+      "icon": "fas fa-chart-bar"
+    },
+
+
+    {
+      "name": "Cybersecurity",
+      "slug": "cybersecurity",
+      "description": "Learn about cybersecurity concepts and techniques for protecting computer systems and networks from cyber attacks.",
+      "icon": "fas fa-shield-alt"
+    },
+  
+    {
+      "name": "Blockchain",
+      "slug": "blockchain",
+      "description": "Discover blockchain technologies and platforms for building secure and transparent digital transactions.",
+      "icon": "fas fa-caube"
+    }
+    
+  ]
+  
