@@ -18,7 +18,7 @@
 
 .card-text {
     font-size: 1rem;
-    color: #666;
+    color: #525151;
 }
 
 .btn-light {
@@ -30,5 +30,5 @@
 
 .btn-light:hover {
     background-color: #333;
-    color: #fff;
+    color: #fff ;
 }

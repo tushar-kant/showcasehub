@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import projectTypes from '../data/projectTypes.json';
 import Footer from '../pages/Footer';
 import './ProjectTypes.css'; // Assuming you have a separate CSS file for custom styles
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 const ProjectTypes = () => {
@@ -18,15 +18,17 @@ const ProjectTypes = () => {
         'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
         'linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%)',
         'linear-gradient(135deg, #fbc2eb 0%, #a18cd1 100%)',
-        'linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%)',
-        'linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%)',
-        'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
-        'linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)',
-        'linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%)',
+        'linear-gradient(135deg, #ffefba 0%, #ffffff 100%)',
+        'linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)',
+        'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)',
+        'linear-gradient(135deg, #8ec5fc 0%, #e0c3fc 100%)',
+        'linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%)',
+        'linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)',
         'linear-gradient(135deg, #f6d365 0%, #fda085 100%)',
-        'linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)'
+        'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
     ];
-
+    
+    
     const [searchQuery, setSearchQuery] = useState('');
 
     const handleSearchChange = (event) => {
@@ -38,56 +40,62 @@ const ProjectTypes = () => {
     );
 
     return (
-        <div className="project-types-container">
-             <Helmet>
-                <title>free projects with source code - showcasehub.tech</title>
-                <meta name="description" content="Explore a variety of projects across different domains and find your perfect project." />
+        <>
+            <Helmet>
+                <title>free projects with source code download - showcasehub.tech</title>
+                <meta name="description" content="Explore a variety of free projects with source code available for download. Find inspiration and start coding with our extensive collection of projects " />
+                <meta name="keywords" content="projects, free projects, source code, showcasehub,download,projects for beginners,github" />
+                <link rel="canonical" href="/projecttype" />
             </Helmet>
-            <Navbar />
-            <div className="container mt-5">
-                {/* Page Heading */}
-                <div className="text-center mb-5">
-                    <h2 className="display-4 font-weight-bold">Discover Projects</h2>
-                    <p className="lead text-muted">Explore a variety of projects across different domains.</p>
-                </div>
-                
-                {/* Search Bar */}
-                <div className="mb-5">
-                    <h3 className="text-center mb-4">Find Your Perfect Project</h3>
-                    <div className="d-flex justify-content-center">
-                        <input
-                            type="text"
-                            className="form-control form-control-lg shadow-sm"
-                            placeholder="Search for projects..."
-                            value={searchQuery}
-                            onChange={handleSearchChange}
-                            style={{ maxWidth: '600px' }}
-                        />
-                    </div>
-                </div>
+            <div className="project-types-container">
 
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    {filteredProjectTypes.map((type, index) => (
-                        <div className="col mb-4" key={index}>
-                            <Link to={`/projects/${type.name.toLowerCase()}`} className="text-decoration-none">
-                                <div className="card h-100 rounded-3 shadow border-0" style={{ background: gradients[index % gradients.length], color: '#fff' }}>
-                                    <div className="card-body d-flex flex-column justify-content-between">
-                                        <h5 className="card-title fs-5 mb-3 text-dark">{type.name}</h5>
-                                        <p className="card-text mb-4">{type.description}</p>
-                                        <div className="text-center">
-                                            <button className="btn btn-light btn-sm px-4 py-2 rounded-pill">
-                                                View Projects
-                                            </button>
+                <Navbar />
+                <div className="container mt-5">
+                    {/* Page Heading */}
+                    <div className="text-center mb-5">
+                        <h1 className="display-4 font-weight-bold">Explore free simple projects across different domains.</h1>
+                    </div>
+
+                    {/* Search Bar */}
+                    <div className="mb-5" style={{ textAlign: 'center' }}>
+                        <h3 className="mb-4" style={{ color: '#007bff' }}>Find Your Perfect Project</h3>
+                        <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+                            <input
+                                type="text"
+                                className="form-control form-control-lg shadow-sm"
+                                placeholder="Search for projects..."
+                                value={searchQuery}
+                                onChange={handleSearchChange}
+                                style={{ borderRadius: '30px', border: '2px solid #007bff', fontSize: '1.2rem', padding: '12px 20px' }}
+                            />
+                        </div>
+                    </div>
+
+                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        {filteredProjectTypes.map((type, index) => (
+                            <div className="col mb-4" key={index}>
+                                <Link to={`/projects/${type.name.toLowerCase()}`} className="text-decoration-none">
+                                    <div className="card h-100 rounded-3 shadow border-0" style={{ background: gradients[index % gradients.length], color: '#fff' }}>
+                                        <div className="card-body d-flex flex-column justify-content-between">
+                                            <h5 className="card-title fs-5 mb-3 text-dark">{type.name}</h5>
+                                            <p className="card-text mb-4">{type.description}</p>
+                                            {/* <p className="card-text mb-2"><strong>Keywords:</strong> {type.keywords.join(', ')}</p> */}
+                                            <p className="card-text mb-4"><strong>Difficulty Level:</strong> {type.difficulty_level}</p>
+                                            <div className="text-center">
+                                                <button className="btn btn-light btn-sm px-4 py-2 rounded-pill">
+                                                    View Projects
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </Link>
-                        </div>
-                    ))}
+                                </Link>
+                            </div>
+                        ))}
+                    </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </>
     );
 };
 

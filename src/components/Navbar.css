@@ -1,0 +1,8 @@
+.navbar-logo {
+    opacity: 0.8; /* Adjust the value to make the image more or less transparent */
+  }
+  
+  .navbar-logo:hover {
+    opacity: 1; /* Optional: Make the logo fully opaque when hovered */
+  }
+  

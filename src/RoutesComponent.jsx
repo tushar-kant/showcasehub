@@ -8,11 +8,16 @@ import BecomePartner from './components/BecomePartner';
 import TechnologyCategories from './components/Books/TechnologyCategories';
 import EbookList from './components/Books/EbookList';
 import JobListings from './components/JobListings';
+import Aboutus from './pages/Aboutus';
+import Disclaimer from './pages/Disclaimer';
+import Contactus from './pages/Contactus';
+import ProjectDetails from './components/ProjectDetails';
+
 
 
 const RoutesComponent = () => (
 
-    <HashRouter>
+    <BrowserRouter>
         <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/projects/technology/" element={<Projects />} /> */}
@@ -23,8 +28,11 @@ const RoutesComponent = () => (
         <Route path="/ebook" element={<TechnologyCategories />} />
         <Route path="/ebook/:slug" element={<EbookList />} />
         <Route path="/jobs" element={<JobListings />} />
-        
-
+        <Route path="/aboutus" element={<Aboutus/>} />
+        {/* <Route path="/privacypolicy" element={<PrivacyPolicy/>} /> */}
+        <Route path="/disclaimer" element={<Disclaimer/>} />
+        <Route path="/contactus" element={<Contactus />} />
+        <Route path="/project/:name" element={<ProjectDetails />} />
 
 
 
@@ -35,7 +43,7 @@ const RoutesComponent = () => (
 
 
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
 );
 
 export default RoutesComponent;

@@ -2,7 +2,7 @@
   {
     "name": "C-programming",
     "slug": "C-programming",
-    "description": "Explore C-language programming concepts and techniques for building low-level system software and applications.",
+    "description": "Explore C-language programming concepts for building low-level system software and applications.",
     "icon": "fas fa-laptop-code"
   },
     {
@@ -28,7 +28,7 @@
     {
       "name": "Cybersecurity",
       "slug": "cybersecurity",
-      "description": "Learn about cybersecurity concepts and techniques for protecting computer systems and networks from cyber attacks.",
+      "description": "Learn about cybersecurity concepts and techniques for protecting systems and networks from cyber attacks.",
       "icon": "fas fa-shield-alt"
     },
   

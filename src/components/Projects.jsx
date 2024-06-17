@@ -3,7 +3,7 @@ import { useParams, useLocation } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import ProjectCard from '../components/ProjectCard';
 import projectsData from '../data/projects.json';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import Footer from '../pages/Footer';
 
 const Projects = () => {
@@ -26,30 +26,40 @@ const Projects = () => {
     setSearchQuery(event.target.value);
   };
 
-  const pageTitle = type ? `Free ${type} Projects with Source Code - showcasehub.tech` : 'Projects - showcasehub.tech';
-  const metaDescription = type ? `Explore a variety of projects related to ${type} and find inspiration for your next project on our platform.` : 'Explore a variety of projects and find inspiration for your next project on our platform.';
-  const metaKeywords = type ? `${type} projects, free ${type} projects, ${type} source code` : 'projects, free projects, source code, showcasehub';
-
+  const pageTitle = type ? `simple ${type} projects for beginners with sourcecode 2024 - showcasehub.tech` : 'simple projects for beginners with sourcecode 2024- showcasehub.tech';
+  const metaDescription = type
+    ? `Top simple ${type} projects for beginners with source code on our platform. Find inspiration and learn from a variety of ${type} projects designed to help you start coding.`
+    : 'Top simple Python projects for beginners with source code on our platform. Find inspiration and learn from a variety of  projects designed to help you start coding.';
+  const metaKeywords = type
+    ? `simple ${type} projects, beginner ${type} projects, free ${type} projects, ${type} source code, ${type} projects for beginners, ${type} projects with source code`
+    : 'simple  projects, beginner  projects, free  projects,  source code,  projects for beginners,  projects with source code, simple projects, coding projects for beginners, beginner coding projects';
+  const canonicalUrl = type ? `/projects/${type}` : '/projects';
   return (
     <div>
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={metaDescription} />
         <meta name="keywords" content={metaKeywords} />
+        <link rel="canonical" href={canonicalUrl} />
       </Helmet>
       <Navbar />
       <div className="container mt-4">
-        <h1 className="text-center mb-4">Free Projects with source code</h1>
+        <div className="text-center mb-5">
+          <h1 className="display-4 font-weight-bold">simple {type} projects with source code</h1>
+        </div>
 
-        <div className="mb-4">
-          <div className="input-group shadow-sm">
+    
+        <div className="mb-4" style={{ maxWidth: '500px', margin: '0 auto' }}>
+          <div className="input-group" style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)', borderRadius: '20px' }}>
             <input
               type="text"
               className="form-control"
               placeholder="Search projects..."
               value={searchQuery}
               onChange={handleSearchChange}
+              style={{ borderRadius: '20px 0 0 20px', border: 'none', boxShadow: 'none' }}
             />
+
           </div>
         </div>
 

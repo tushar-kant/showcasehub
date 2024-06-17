@@ -1,41 +1,112 @@
-
 [
   {
-    "name": "C",
-    "description": "Projects related to C language"
+    "name": "React",
+    "description": "Discover projects built with React. Enhance your skills in creating dynamic web applications using this popular JavaScript library.",
+    "keywords": [
+      "React projects",
+      "React tutorials",
+      "JavaScript frameworks"
+    ],
+    "difficulty_level": "Beginner to Advanced"
   },
-    {
-      "name": "React",
-      "description": "Projects related to React"
-    },
-    {
-      "name": "Angular",
-      "description": "Projects related to Angular"
-    },
-    {
-      "name": "Node.js",
-      "description": "Projects related to Node.js"
-    },
-    {
-      "name": "Python",
-      "description": "Projects related to Python"
-    },
-    {
-      "name": "JavaScript",
-      "description": "Projects related to JavaScript"
-    },
-    {
-      "name": "Java",
-      "description": "Projects related to Java"
-    },
-    {
-      "name": "React Native",
-      "description": "Projects related to Mobile Development"
-    },
-
-    {
-      "name": "Machine Learning",
-      "description": "Projects related to Machine Learning"
-    }
-  ]
-  
+  {
+    "name": "Rust",
+    "description": "Discover projects and tutorials on Rust. Learn this systems programming language known for its safety, speed, and concurrency.",
+    "keywords": [
+      "Rust projects",
+      "Rust tutorials",
+      "systems programming"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "Angular",
+    "description": "Explore projects and tutorials on Angular. Ideal for developers looking to master this powerful web framework.",
+    "keywords": [
+      "Angular projects",
+      "Angular tutorials",
+      "web development"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "Python",
+    "description": "Start with simple Python projects perfect for beginners. Learn the basics of this versatile programming language.",
+    "keywords": [
+      "Python projects",
+      "Python tutorials",
+      "learn Python"
+    ],
+    "difficulty_level": "Beginner"
+  },
+  {
+    "name": "JavaScript",
+    "description": "Explore JavaScript projects ranging from basic scripts to complex applications. Enhance your web development skills.",
+    "keywords": [
+      "JavaScript projects",
+      "web development",
+      "JavaScript tutorials"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "Node.js",
+    "description": "Discover projects related to Node.js. Perfect for learning server-side development and building scalable applications.",
+    "keywords": [
+      "Node.js projects",
+      "backend development",
+      "Node.js tutorials"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "Java",
+    "description": "Access a variety of Java projects suitable for all levels. Master Java, a versatile language used in various applications.",
+    "keywords": [
+      "Java projects",
+      "Java tutorials",
+      "programming with Java"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "React Native",
+    "description": "Delve into mobile development with React Native. Build cross-platform mobile apps for both iOS and Android.",
+    "keywords": [
+      "React Native projects",
+      "mobile development",
+      "React Native tutorials"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "Machine Learning",
+    "description": "Engage with Machine Learning projects covering various algorithms. Perfect for aspiring data scientists and AI developers.",
+    "keywords": [
+      "Machine Learning projects",
+      "AI tutorials",
+      "data science"
+    ],
+    "difficulty_level": "Intermediate to Advanced"
+  },
+  {
+    "name": "C",
+    "description": "Explore C projects, from basic algorithms to advanced systems programming. Strengthen your understanding of C.",
+    "keywords": [
+      "C projects",
+      "C tutorials",
+      "systems programming"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  },
+  {
+    "name": "Go",
+    "description": "Discover projects and tutorials on Go. Learn this efficient and powerful programming language designed for building scalable and concurrent applications.",
+    "keywords": [
+      "Go projects",
+      "Go tutorials",
+      "backend development"
+    ],
+    "difficulty_level": "Beginner to Advanced"
+  }
+]
