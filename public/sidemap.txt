@@ -122,17 +122,13 @@ https://showcasehub.tech/project/JavaScript%20Image%20Gallery
 https://showcasehub.tech/project/JavaScript%20Quiz%20App		
 https://showcasehub.tech/project/JavaScript%20Countdown%20Timer		
 https://showcasehub.tech/project/JavaScript%20Weather%20App		
-https://showcasehub.tech/project/JavaScript%20Calendar		
 https://showcasehub.tech/project/JavaScript%20Contact%20Form		
 https://showcasehub.tech/project/JavaScript%20Image%20Slider		
-https://showcasehub.tech/project/JavaScript%20Calculator		
 https://showcasehub.tech/project/JavaScript%20Calendar		
-https://showcasehub.tech/project/JavaScript%20Weather%20App		
 https://showcasehub.tech/project/JavaScript%20Todo%20List		
 https://showcasehub.tech/project/JavaScript%20Calculator		
 https://showcasehub.tech/project/JavaScript%20Quiz%20App		
 https://showcasehub.tech/project/JavaScript%20Image%20Slider		
-https://showcasehub.tech/project/JavaScript%20Countdown%20Timer		
 https://showcasehub.tech/project/JavaScript%20Contact%20Form		
 https://showcasehub.tech/project/JavaScript%20Clock		
 https://showcasehub.tech/project/JavaScript%20BMI%20Calculator		

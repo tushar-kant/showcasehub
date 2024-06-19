@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 import Footer from '../pages/Footer';
 import Navbar from './Navbar';
 import logoimg from '../assets/image1.png';
+import './ProjectDetails.css';
 
 const ProjectDetails = () => {
   const { name } = useParams();
@@ -53,51 +54,87 @@ const ProjectDetails = () => {
   };
 
   return (
-    <div className="project-details-container">
-      <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={metaDescription} />
-        <meta name="keywords" content={metaKeywords} />
-        <link rel="canonical" href={`/project/${project.name}`} />
-      </Helmet>
-      <Navbar />
-      <div className="container mt-4">
-        <div className="row">
-          <div className="col-lg-6">
-            <h1 className="project-title">{project.name}</h1>
-            <p className="project-description">{project.description}</p>
-            <ul className="project-info-list">
-              <li><strong>Prerequisites:</strong> {project.prerequisites}</li>
-              <li><strong>Tech Stack:</strong> {project.tech_stack}</li>
-              <li><strong>Time Required:</strong> {project.time_required}</li>
-              <li><strong>Level:</strong> {project.level}</li>
-            </ul>
-            <div className="project-actions">
-              <a href={project.live_link} className="btn" style={primaryBtnStyle} target="_blank" rel="noopener noreferrer">Live Demo</a>
-              <a href={project.source_code_link} className="btn" style={outlineBtnStyle} target="_blank" rel="noopener noreferrer">Source Code</a>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <img src={project.image || logoimg} alt={project.name} className="img-fluid project-image" onError={(e) => { e.target.onerror = null; e.target.src = logoimg }} />
-          </div>
-        </div>
-        <div className="mt-4">
-          <h2 className="section-title">How to Use</h2>
-          <ul className="how-to-use-list">
-            {project.how_to_use.split('\n').map((step, index) => (
-              <li key={index} className="how-to-use-step">{step}</li>
-            ))}
+    <div id="project-details-container">
+    <Helmet>
+      <title>{pageTitle}</title>
+      <meta name="description" content={metaDescription} />
+      <meta name="keywords" content={metaKeywords} />
+      <link rel="canonical" href={`/project/${project.name}`} />
+    </Helmet>
+    <Navbar />
+    <div className="container mt-4">
+      <div className="row">
+        <div className="col-lg-6">
+          <h1 id="project-title">{project.name}</h1>
+          <p id="project-description">{project.description}</p>
+          <ul id="project-info-list">
+            <li><strong>Prerequisites:</strong> {project.prerequisites}</li>
+            <li><strong>Tech Stack:</strong> {project.tech_stack}</li>
+            <li><strong>Time Required:</strong> {project.time_required}</li>
+            <li><strong>Level:</strong> {project.level}</li>
           </ul>
+          <div id="project-actions">
+            <a href={project.live_link} id="primary-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href={project.source_code_link} id="outline-btn" target="_blank" rel="noopener noreferrer">Source Code</a>
+          </div>
         </div>
-        <div className="mt-4">
-          <h2 className="section-title">Long Description</h2>
-          <p className="section-content">{project.detailed_description}</p>
+        <div className="col-lg-6">
+          <img src={project.image || logoimg} alt={project.name} id="project-image" onError={(e) => { e.target.onerror = null; e.target.src = logoimg }} />
         </div>
       </div>
-      
-      <Footer />
+      <div className="row">
+      <div className="mt-4 col-lg-6">
+        <h2 className="section-title">How to Use :</h2>
+        <ul>
+          {project.how_to_use.split('\n').map((step, index) => (
+            <li key={index} className="how-to-use-step">{step}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="col-lg-6">
+          <img src={project.image1 || logoimg} alt={project.name} id="project-image" onError={(e) => { e.target.onerror = null; e.target.src = logoimg }} />
+        </div>
+      </div>
+      <div className="mt-4">
+        <h3 className="section-title">Description :</h3>
+        <p className="section-content">{project.detailed_description}</p>
+      </div>
+      {project.faqs && project.faqs.length > 0 && (
+        <div className="mt-4">
+          <h4 className="section-title">FAQs</h4>
+          <div className="accordion accordion-flush" id="accordionFlushExample">
+            {project.faqs.map((faq, index) => (
+              <div className="accordion-item" key={index}>
+                <h2 className="accordion-header" id={`flush-heading${index}`}>
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target={`#flush-collapse${index}`}
+                    aria-expanded="false"
+                    aria-controls={`flush-collapse${index}`}
+                  >
+                    {faq.question}
+                  </button>
+                </h2>
+                <div
+                  id={`flush-collapse${index}`}
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body">
+                    {faq.answer}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
-  );
+    <Footer />
+  </div>
+);
 };
 
 export default ProjectDetails;
