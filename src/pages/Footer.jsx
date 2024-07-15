@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4">
       <div className="container text-center">
-        <p>&copy; 2024 ProjeXplore. All rights reserved.</p>
+        <p>&copy; 2024 showcasehub.tech. All rights reserved.</p>
         <div className="footer-links">
           <Link to="/aboutus" className="text-light mx-2">About Us</Link>
           {/* <Link to="/privacypolicy" className="text-light mx-2">Privacy Policy</Link> */}

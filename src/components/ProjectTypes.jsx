@@ -5,7 +5,8 @@ import projectTypes from '../data/projectTypes.json';
 import Footer from '../pages/Footer';
 import './ProjectTypes.css'; // Assuming you have a separate CSS file for custom styles
 import { Helmet } from 'react-helmet-async';
-
+import Breadcrumbs from './Breadcrumbs';  // Import the Breadcrumbs component
+import { motion } from 'framer-motion'; // Import framer-motion
 
 const ProjectTypes = () => {
     // Define an array of gradient colors
@@ -27,8 +28,7 @@ const ProjectTypes = () => {
         'linear-gradient(135deg, #f6d365 0%, #fda085 100%)',
         'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
     ];
-    
-    
+
     const [searchQuery, setSearchQuery] = useState('');
 
     const handleSearchChange = (event) => {
@@ -39,23 +39,26 @@ const ProjectTypes = () => {
         type.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
+    const variants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0 }
+    };
+
     return (
         <>
             <Helmet>
                 <title>free projects with source code download - showcasehub.tech</title>
-                <meta name="description" content="Explore a variety of free projects with source code available for download. Find inspiration and start coding with our extensive collection of projects " />
-                <meta name="keywords" content="projects, free projects, source code, showcasehub,download,projects for beginners,github" />
-                <link rel="canonical" href="/projecttype" />
+                <meta name="description" content="Explore a variety of free projects with source code available for download. Find inspiration and start coding with our extensive collection of projects." />
+                <meta name="keywords" content="projects, free projects, source code, showcasehub, download, projects for beginners, github" />
+                <link rel="canonical" href="/projects" />
             </Helmet>
             <div className="project-types-container">
-
                 <Navbar />
                 <div className="container mt-5">
                     {/* Page Heading */}
                     <div className="text-center mb-5">
                         <h1 className="display-4 font-weight-bold">Explore free simple projects across different domains.</h1>
                     </div>
-
                     {/* Search Bar */}
                     <div className="mb-5" style={{ textAlign: 'center' }}>
                         <h3 className="mb-4" style={{ color: '#007bff' }}>Find Your Perfect Project</h3>
@@ -70,16 +73,21 @@ const ProjectTypes = () => {
                             />
                         </div>
                     </div>
-
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         {filteredProjectTypes.map((type, index) => (
-                            <div className="col mb-4" key={index}>
+                            <motion.div 
+                                key={index}
+                                className="col mb-4"
+                                initial="hidden"
+                                animate="visible"
+                                variants={variants}
+                                transition={{ duration: 0.3, delay: index * 0.1 }}
+                            >
                                 <Link to={`/projects/${type.name.toLowerCase()}`} className="text-decoration-none">
                                     <div className="card h-100 rounded-3 shadow border-0" style={{ background: gradients[index % gradients.length], color: '#fff' }}>
                                         <div className="card-body d-flex flex-column justify-content-between">
                                             <h5 className="card-title fs-5 mb-3 text-dark">{type.name}</h5>
                                             <p className="card-text mb-4">{type.description}</p>
-                                            {/* <p className="card-text mb-2"><strong>Keywords:</strong> {type.keywords.join(', ')}</p> */}
                                             <p className="card-text mb-4"><strong>Difficulty Level:</strong> {type.difficulty_level}</p>
                                             <div className="text-center">
                                                 <button className="btn btn-light btn-sm px-4 py-2 rounded-pill">
@@ -89,7 +97,7 @@ const ProjectTypes = () => {
                                         </div>
                                     </div>
                                 </Link>
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
                 </div>

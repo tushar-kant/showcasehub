@@ -5,4 +5,9 @@
   .navbar-logo:hover {
     opacity: 1; /* Optional: Make the logo fully opaque when hovered */
   }
-  
+  /* Navbar.css */
+
+/* Adjust top padding to accommodate the fixed Navbar */
+.navbar-offset {
+  padding-top: 88px; /* Adjust this value to match the height of your Navbar */
+}

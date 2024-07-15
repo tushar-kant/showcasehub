@@ -46,7 +46,7 @@ const ProjectCard = ({ project }) => {
       <div className="card-footer bg-transparent border-0">
   <div className="d-flex justify-content-center">
     <Link
-      to={`/project/${project.name}`}
+      to={`/projects/${project.category}/${project.name}`}
       className="btn btn-primary rounded-pill px-4 py-2"
       style={{ fontSize: '1rem', fontWeight: 'bold' }}
     >

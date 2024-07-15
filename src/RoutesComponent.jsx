@@ -12,6 +12,8 @@ import Aboutus from './pages/Aboutus';
 import Disclaimer from './pages/Disclaimer';
 import Contactus from './pages/Contactus';
 import ProjectDetails from './components/ProjectDetails';
+import InterviewCategories from './components/Interview/InterviewCategories';
+import InterviewQuestions from './components/Interview/InterviewQuestions';
 
 
 
@@ -23,7 +25,7 @@ const RoutesComponent = () => (
         {/* <Route path="/projects/technology/" element={<Projects />} /> */}
         <Route path="/projects/:type" element={<Projects />} />
 
-        <Route path="/projecttype" element={<ProjectTypes />} />
+        <Route path="/projects" element={<ProjectTypes />} />
         <Route path="/partner" element={<BecomePartner />} />
         <Route path="/ebook" element={<TechnologyCategories />} />
         <Route path="/ebook/:slug" element={<EbookList />} />
@@ -32,10 +34,9 @@ const RoutesComponent = () => (
         {/* <Route path="/privacypolicy" element={<PrivacyPolicy/>} /> */}
         <Route path="/disclaimer" element={<Disclaimer/>} />
         <Route path="/contactus" element={<Contactus />} />
-        <Route path="/project/:name" element={<ProjectDetails />} />
-
-
-
+        <Route path="/projects/:type/:name" element={<ProjectDetails />} />
+        <Route path="/interview-questions" element={<InterviewCategories />} />
+        <Route path="/interview-questions/:category" element={<InterviewQuestions />} />
         <Route path="*" element={<Navigate to="/" />} />
 
 

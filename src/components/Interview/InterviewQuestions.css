@@ -1,0 +1,60 @@
+/* InterviewQuestions.css */
+
+.question-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.question-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.toggle-answer {
+  font-size: 14px;
+  color: #007bff; /* Blue color for toggle text */
+}
+
+.answer {
+  margin-top: 10px;
+  display: none; /* Initially hidden */
+}
+
+.answer.visible {
+  display: block; /* Display when visible */
+}
+
+.answer-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style for code snippet */
+.code-snippet {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto; /* Enable horizontal scroll if needed */
+}
+
+.code-block {
+  white-space: pre-wrap; /* Preserve line breaks and spaces */
+  font-family: 'Courier New', Courier, monospace; /* Optional: Set a monospace font for code */
+  color:white;
+}
+
+.code-label {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 5px;
+}

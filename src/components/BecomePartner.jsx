@@ -35,8 +35,8 @@ const BecomePartner = () => {
             <div className="text-center mt-4">
               <h3>Contact Information</h3>
               <p>If you have any questions, feel free to reach out:</p>
-              <p>Email: <a href="mailto:idontknow@gmail.com">idontknow@gmail.com</a></p>
-              <p>Phone: +123456789</p>
+              <p>Email: <a href="mailto:showcasehub.tech@gmail.com">showcasehub.tech@gmail.com</a></p>
+              {/* <p>Phone: +123456789</p> */}
             </div>
             <hr />
             <div className="text-center mt-4">
