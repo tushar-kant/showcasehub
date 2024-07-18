@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { useInView } from '../components/hooks/useInView';
 import './Home.css';
+import Statistics from './Statistics';
 
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -63,6 +64,7 @@ function Home() {
             <motion.img src={heroImage} className="img-fluid" alt="Hero Illustration" variants={itemVariants} />
           </div>
         </div>
+        <Statistics />
         <div className="row text-center mt-5">
           {['Learn', 'Contribute', 'Showcase', 'Interview Questions'].map((title, index) => (
             <motion.div className="col-md-3 mb-4" key={index} variants={itemVariants}>

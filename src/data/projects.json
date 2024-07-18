@@ -13,8 +13,8 @@
     "image1": "https://cdn.prod.website-files.com/5ee715da7b6fbc3bf68c6bfe/65326740fc53b335d2fb07f5_tutorial_building-a-todo-list-app-with-reactjs_hero.webp",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React To-Do App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 100,
-    "total_downloads": 17,
+    "total_views": 330,
+    "total_downloads": 34,
     "faqs": [
       {
         "question": "Can I use this project for commercial purposes?",
@@ -23,6 +23,10 @@
       {
         "question": "Is this project suitable for beginners?",
         "answer": "Yes, this project is designed for beginners to learn React development."
+      },
+      {
+        "question": "Can I customize the design of the to-do app?",
+        "answer": "Yes, you can customize the CSS styles to change the appearance of the app."
       }
     ]
   },
@@ -39,8 +43,8 @@
     "detailed_description": "The React Calculator App is a simple yet powerful calculator built using React. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division, along with additional functionalities like clearing the display and handling decimal inputs. The application offers a clean and intuitive user interface, making it easy to perform calculations on any device. By exploring and working with this project, you'll gain practical experience in building React applications and handling user inputs.",
     "image1": "https://cdn.prod.website-files.com/5ee715da7b6fbc3bf68c6bfe/65326740fc53b335d2fb07f5_tutorial_building-a-todo-list-app-with-reactjs_hero.webp",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",    "how_to_use": "To use the React Calculator App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 89,
-    "total_downloads": 10,
+    "total_views": 289,
+    "total_downloads": 43,
     "faqs": [
       {
         "question": "Can I customize the design of the calculator?",
@@ -49,6 +53,10 @@
       {
         "question": "Is this project suitable for beginners?",
         "answer": "Yes, this project is beginner-friendly and helps you learn React concepts."
+      },
+      {
+        "question": "Can I add more advanced features to the calculator?",
+        "answer": "Yes, you can extend the functionality of the calculator by adding advanced operations and features."
       }
     ]
   },
@@ -65,12 +73,20 @@
     "detailed_description": "The React Weather App is a modern and responsive application that allows users to check the weather forecast for different locations. It leverages React and external weather APIs to fetch and display real-time weather data, providing users with accurate and up-to-date information. The project features a clean and visually appealing design, making it easy to use and navigate. By working on this project, you'll learn how to integrate APIs, handle asynchronous data fetching, and create interactive user interfaces using React.",
     "image1": "https://cdn.prod.website-files.com/5ee715da7b6fbc3bf68c6bfe/65326740fc53b335d2fb07f5_tutorial_building-a-todo-list-app-with-reactjs_hero.webp",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",    "how_to_use": "To use the React Weather App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 76,
+    "total_views": 276,
     "total_downloads": 12,
     "faqs": [
       {
         "question": "How does the app fetch weather data?",
         "answer": "The app uses external weather APIs to fetch real-time weather data for different locations."
+      },
+      {
+        "question": "Can I customize the design of the weather app?",
+        "answer": "Yes, you can modify the CSS styles to customize the appearance of the app."
+      },
+      {
+        "question": "Is this project suitable for intermediate developers?",
+        "answer": "Yes, this project is ideal for developers with some experience in React."
       }
     ]
   },
@@ -87,13 +103,14 @@
     "detailed_description": "The React Timer App is a simple yet useful project that allows users to set and track time intervals using a timer. It offers features like start, pause, and reset, making it ideal for various time management tasks. The application is built using React and styled with CSS, providing a clean and intuitive user interface. By working on this project, you'll gain hands-on experience in managing state, handling user interactions, and building interactive components in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Timer App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 32,
+    "total_views": 232,
     "total_downloads": 8,
     "faqs": [
       {
         "question": "Can I customize the timer settings?",
         "answer": "Yes, you can customize the timer settings such as duration, interval, and notifications."
       }
+
     ]
   },
   {
@@ -109,8 +126,8 @@
     "detailed_description": "The React Calendar App is a versatile project that enables users to view and manage events, appointments, and schedules in a calendar format. It offers features like date selection, event creation, and month navigation, providing users with a comprehensive tool for organizing their time. The application is built using React and styled with CSS, offering a clean and responsive user interface. By exploring and working with this project, you'll learn how to manage state, handle user inputs, and create interactive components in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Calendar App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 39,
-    "total_downloads": 10,
+    "total_views": 189,
+    "total_downloads": 14,
     "faqs": [
       {
         "question": "Can I add events to the calendar?",
@@ -131,7 +148,7 @@
     "detailed_description": "The React Contact App is a beginner-friendly project designed to help you get started with React. It allows you to manage a list of contacts, add new contacts, edit existing ones, and delete contacts. The project is built using React and styled with CSS, offering a clean and responsive user interface. By working through this project, you'll gain hands-on experience in setting up a React application, managing state, and creating interactive components.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Contact App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 28,
+    "total_views": 168,
     "total_downloads": 6,
     "faqs": [
       {
@@ -153,7 +170,7 @@
     "detailed_description": "The React Portfolio App is a project designed to showcase your skills, projects, and experience in a professional and visually appealing manner. It allows you to create a personalized portfolio website with sections for your bio, projects, skills, and contact information. The application is built using React and styled with CSS, offering a clean and modern design. By working on this project, you'll gain practical experience in building a portfolio website, handling user interactions, and creating responsive layouts.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Portfolio App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 36,
+    "total_views": 236,
     "total_downloads": 9,
     "faqs": [
       {
@@ -179,7 +196,7 @@
     "detailed_description": "The React Music Player is a beginner-friendly project that allows you to play and control music tracks in a web application. It features basic functionalities like play, pause, skip, and volume control, providing a simple yet engaging user experience. The project is built using React and styled with CSS, offering a clean and intuitive user interface. By working on this project, you'll gain hands-on experience in managing state, handling user interactions, and building interactive components in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Music Player, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 42,
+    "total_views": 192,
     "total_downloads": 11,
     "faqs": [
       {
@@ -201,12 +218,16 @@
     "detailed_description": "The React Blogging App is a project designed to help you create and manage a blog website using React. It allows you to write, edit, and publish blog posts, manage categories and tags, and interact with readers through comments. The application is built using React and styled with CSS, offering a clean and responsive user interface. By working on this project, you'll gain practical experience in building a full-fledged blogging platform, handling user inputs, and managing state in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Blogging App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 38,
+    "total_views": 208,
     "total_downloads": 10,
     "faqs": [
       {
         "question": "Can I customize the blog layout and design?",
         "answer": "Yes, you can customize the blog layout and design by updating the CSS styles in the project."
+      },
+      {
+        "question": "Is this project suitable for creating personal blogs?",
+        "answer": "Yes, this project is ideal for creating personal blogs and sharing your thoughts and experiences."
       }
     ]
   },
@@ -223,7 +244,7 @@
     "detailed_description": "The React Social Network App is a project designed to help you build a social media platform using React. It allows users to create profiles, connect with friends, share posts, and interact with other users through comments and likes. The application is built using React and styled with CSS, offering a clean and modern design. By working on this project, you'll gain practical experience in building a social network application, managing user data, and implementing social features in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Social Network App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 44,
+    "total_views": 241,
     "total_downloads": 12,
     "faqs": [
       {
@@ -245,7 +266,7 @@
     "detailed_description": "The React Quiz App is a project designed to help you create and manage quizzes using React. It allows you to create multiple-choice questions, set correct answers, and track user scores. The application is built using React and styled with CSS, offering a clean and interactive user interface. By working on this project, you'll gain practical experience in building a quiz application, handling user inputs, and managing state in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Quiz App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 40,
+    "total_views":180,
     "total_downloads": 11,
     "faqs": [
       {
@@ -271,7 +292,7 @@
     "detailed_description": "The React Image Gallery is a beginner-friendly project designed to help you create a gallery of images using React. It allows you to display images in a grid layout, view them in a lightbox, and navigate through the gallery with next and previous buttons. The project is built using React and styled with CSS, offering a clean and responsive user interface. By working on this project, you'll gain hands-on experience in managing state, handling user interactions, and building interactive components in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Image Gallery, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 35,
+    "total_views": 165,
     "total_downloads": 9,
     "faqs": [
       {
@@ -293,12 +314,16 @@
     "detailed_description": "The React Recipe App is a beginner-friendly project designed to help you create a recipe application using React. It allows you to browse and search for recipes, view details like ingredients and instructions, and save your favorite recipes. The project is built using React and styled with CSS, offering a clean and intuitive user interface. By working on this project, you'll gain hands-on experience in managing state, handling user inputs, and building interactive components in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Recipe App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 37,
+    "total_views": 198,
     "total_downloads": 10,
     "faqs": [
       {
         "question": "Can I customize the recipe categories and details?",
         "answer": "Yes, you can customize the recipe categories and details by updating the data in the project."
+      },
+      {
+        "question": "Is this project suitable for creating a cooking website?",
+        "answer": "Yes, this project is ideal for creating a cooking website with recipes and cooking tips."
       }
     ]
   },
@@ -315,7 +340,7 @@
     "detailed_description": "The React Blog App is a project designed to help you create and manage a blog website using React. It allows you to write, edit, and publish blog posts, manage categories and tags, and interact with readers through comments. The application is built using React and styled with CSS, offering a clean and responsive user interface. By working on this project, you'll gain practical experience in building a full-fledged blogging platform, handling user inputs, and managing state in React.",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Blog App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 41,
+    "total_views": 231,
     "total_downloads": 11,
     "faqs": [
       {
@@ -337,12 +362,16 @@
     "detailed_description": "The React Social Media App is a project designed to help you build a social media platform using React. It allows users to create profiles, connect with friends, share posts, and interact with other users through comments and likes. The application is built using React and styled with CSS, offering a clean and modern design. By working on this project, you'll gain practical experience in building a social network application, managing user data, and implementing social features in React",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2021/09/16309184791629816928_1264x667.png",
     "how_to_use": "To use the React Social Media App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using npm start.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 43,
+    "total_views": 203,
     "total_downloads": 12,
     "faqs": [
       {
         "question": "Can I add new features to the social media app?",
         "answer": "Yes, you can extend the functionality of the app by adding new features like messaging, notifications, and user profiles."
+      },
+      {
+        "question": "Is this project suitable for creating a social media platform?",
+        "answer": "Yes, this project is ideal for creating a social media platform with user profiles and social interactions."
       }
     ]
   },
@@ -359,8 +388,8 @@
     "detailed_description": "The JavaScript Image Gallery is a simple yet effective tool for showcasing a collection of images. It allows users to browse through images in a visually appealing manner, with features such as image navigation, thumbnails, and fullscreen mode. The application is built using HTML, CSS, and JavaScript, making it easy to integrate into any web project. By exploring and modifying this project, you'll gain valuable experience in working with image galleries and enhancing user interfaces.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Image Gallery, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. View the images in the gallery and interact with the features.",
-    "total_views": 32,
-    "total_downloads": 8,
+    "total_views": 162,
+    "total_downloads": 18,
     "faqs": [
       {
         "question": "Can I customize the gallery layout and design?",
@@ -381,7 +410,7 @@
     "detailed_description": "The JavaScript Quiz App is an interactive quiz application designed to test users' knowledge on various topics. It features multiple-choice questions, score tracking, and feedback for correct and incorrect answers. The application is built using JavaScript, HTML, and CSS, providing a fun and engaging user experience. By working on this project, you'll gain practical experience in building quiz applications, handling user inputs, and managing state in JavaScript.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Quiz App, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. Take the quiz and answer the questions to test your knowledge.",
-    "total_views": 39,
+    "total_views": 139,
     "total_downloads": 10,
     "faqs": [
       {
@@ -403,13 +432,14 @@
     "detailed_description": "The JavaScript Countdown Timer is a simple tool for setting and tracking countdowns to important events or deadlines. It allows users to input a duration and start the countdown, displaying the remaining time in hours, minutes, and seconds. The application is built using JavaScript, HTML, and CSS, providing a clean and intuitive user interface. By working on this project, you'll gain practical experience in handling date and time operations in JavaScript.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Countdown Timer, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. Set the timer duration and start the countdown.",
-    "total_views": 28,
+    "total_views": 128,
     "total_downloads": 6,
     "faqs": [
       {
         "question": "Can I customize the countdown timer settings?",
         "answer": "Yes, you can customize the countdown timer settings such as duration, format, and styling."
       }
+
     ]
   },
   {
@@ -425,7 +455,7 @@
     "detailed_description": "The JavaScript Weather App is a modern and responsive application that allows users to check the weather forecast for different locations. It leverages external weather APIs to fetch and display real-time weather data, providing users with accurate and up-to-date information. The project features a clean and visually appealing design, making it easy to use and navigate. By working on this project, you'll learn how to integrate APIs, handle asynchronous data fetching, and create interactive user interfaces using JavaScript.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Weather App, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. Enter a location to view the weather forecast.",
-    "total_views": 45,
+    "total_views": 145,
     "total_downloads": 12,
     "faqs": [
       {
@@ -447,7 +477,7 @@
     "detailed_description": "The JavaScript Calendar is a versatile project that allows users to view and manage events, appointments, and schedules in a calendar format. It offers features like date selection, event creation, and month navigation, providing users with a comprehensive tool for organizing their time. The application is built using JavaScript, HTML, and CSS, offering a clean and responsive user interface. By exploring and working with this project, you'll learn how to manage state, handle user inputs, and create interactive components in JavaScript.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Calendar, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. View the calendar and navigate through the months and years.",
-    "total_views": 41,
+    "total_views": 141,
     "total_downloads": 11,
     "faqs": [
       {
@@ -469,7 +499,7 @@
     "detailed_description": "The JavaScript Contact Form is a simple yet effective tool for creating and embedding contact forms on websites. It allows users to input their name, email, and message, and submit the form to a specified email address. The application is built using JavaScript, HTML, and CSS, providing a clean and user-friendly interface. By working on this project, you'll gain practical experience in handling form submissions and validating user inputs in JavaScript.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Contact Form, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. Fill out the contact form and submit your message.",
-    "total_views": 37,
+    "total_views": 137,
     "total_downloads": 10,
     "faqs": [
       {
@@ -490,7 +520,7 @@
     "detailed_description": "The JavaScript Image Slider is a simple yet effective tool for creating and embedding image sliders on websites. It allows users to display a series of images in a slideshow format, with features like autoplay, navigation buttons, and image captions. The application is built using JavaScript, HTML, and CSS, providing a clean and user-friendly interface. By working on this project, you'll gain practical experience in building image sliders and enhancing user interfaces in JavaScript.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Todo App, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. Add, edit, and delete tasks in the to-do list.",
-    "total_views": 32,
+    "total_views": 132,
     "total_downloads": 15,
     "faqs": [
       {
@@ -512,7 +542,7 @@
     "detailed_description": "The Python Flask API is a project designed to help you build a RESTful API using Python and Flask. It allows users to create, read, update, and delete data through API endpoints, providing a flexible and scalable backend solution. The application is built using Python and Flask, offering a clean and efficient API structure. By working on this project, you'll gain practical experience in building APIs, handling HTTP requests, and managing data in Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUpzqWb1vKHK3kRRpxVwoQ1dcs4IsU9hQu9g&s",
     "how_to_use": "To use the Python Flask API, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install -r requirements.txt.\n3. Start the Flask server using python app.py.\n4. Test the API endpoints using a tool like Postman.",
-    "total_views": 56,
+    "total_views": 156,
     "total_downloads": 13,
     "faqs": [
       {
@@ -534,7 +564,7 @@
     "detailed_description": "The Java Library Management System is a project designed to help you manage and organize library resources using Java and MySQL. It allows users to add, edit, and delete books, manage borrower information, and track book loans and returns. The application is built using Java for the backend and MySQL for the database, providing a robust and efficient system for library management. By working on this project, you'll gain practical experience in building Java applications, integrating databases, and managing data in a library setting.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java Library Management System, follow these steps:\n1. Clone the repository from the source code link.\n2. Import the database schema from the provided SQL file.\n3. Run the Java application and interact with the library management system.",
-    "total_views": 45,
+    "total_views": 245,
     "total_downloads": 11,
     "faqs": [
       {
@@ -556,7 +586,7 @@
     "detailed_description": "The Java Web Scraper is a project designed to help you extract and parse data from websites using Java. It allows users to specify URLs, scrape web content, and save the extracted data to a file or database. The application is built using Java, providing a versatile and customizable tool for web scraping tasks. By working on this project, you'll gain practical experience in building web scraping applications, handling HTTP requests, and processing HTML content in Java.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java Web Scraper, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java application and provide the URL of the website to scrape.\n3. View the scraped data in the console or a file.",
-    "total_views": 39,
+    "total_views": 239,
     "total_downloads": 10,
     "faqs": [
       {
@@ -565,28 +595,7 @@
       }
     ]
   },
-  {
-    "name": "Java Chat Application",
-    "description": "A chat application built with Java.",
-    "category": "Java",
-    "prerequisites": "Basic knowledge of Java programming.",
-    "tech_stack": "Java",
-    "time_required": "4 hours",
-    "level": "Intermediate",
-    "live_link": "",
-    "source_code_link": "http://github.com/example/java-chat-app",
-    "detailed_description": "The Java Chat Application is a project designed to help you build a real-time chat system using Java. It allows users to connect to a chat server, send and receive messages, and interact with other users in a chat room. The application is built using Java, providing a simple and efficient platform for real-time communication. By working on this project, you'll gain practical experience in building chat applications, handling network connections, and managing user interactions in Java.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
-    "how_to_use": "To use the Java Chat Application, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java application and connect to the chat server.\n3. Send and receive messages with other users in the chat room.",
-    "total_views": 41,
-    "total_downloads": 11,
-    "faqs": [
-      {
-        "question": "Can I customize the chat application features?",
-        "answer": "Yes, you can customize the chat application features by adding new functionalities like private messaging and user authentication."
-      }
-    ]
-  },
+
   {
     "name": "JavaScript Calculator",
     "description": "A calculator application built with JavaScript.",
@@ -595,12 +604,12 @@
     "tech_stack": "JavaScript, HTML, CSS",
     "time_required": "2 hours",
     "level": "Beginner",
-    "live_link": "",
-    "source_code_link": "http://github.com/example/js-calculator",
+    "live_link": "https://zxcodes.github.io/Calculator/",
+    "source_code_link": "https://github.com/zxcodes/Calculator",
     "detailed_description": "The JavaScript Calculator is a simple yet effective tool for performing basic arithmetic operations in a web browser. It allows users to input numbers, perform calculations, and view the results in a user-friendly interface. The application is built using JavaScript, HTML, and CSS, providing a clean and intuitive calculator experience. By working on this project, you'll gain practical experience in building interactive web applications and handling user inputs in JavaScript.",
-    "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
+    "image": "https://user-images.githubusercontent.com/44538497/169086855-bd20e6e0-3675-4db6-b086-0298005973f4.png",
     "how_to_use": "To use the JavaScript Calculator, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the index.html file in your browser.\n3. Perform calculations using the calculator interface.",
-    "total_views": 37,
+    "total_views": 137,
     "total_downloads": 10,
     "faqs": [
       {
@@ -622,7 +631,7 @@
     "detailed_description": "The Node.js Express API is a project designed to help you build a RESTful API using Node.js and Express. It allows users to create, read, update, and delete data through API endpoints, providing a flexible and scalable backend solution. The application is built using Node.js and Express, offering a clean and efficient API structure. By working on this project, you'll gain practical experience in building APIs, handling HTTP requests, and managing data in Node.js.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO3lxFPRksqs5oCIwivCBWZf9jWY7-B0xtA&s",
     "how_to_use": "To use the Node.js Express API, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the Express server using npm start.\n4. Test the API endpoints using a tool like Postman.",
-    "total_views": 56,
+    "total_views": 156,
     "total_downloads": 13,
     "faqs": [
       {
@@ -644,7 +653,7 @@
     "detailed_description": "The Node.js Authentication System is a project designed to help you implement user authentication in Node.js using Passport. It allows users to register, login, and access protected routes with authentication middleware. The application is built using Node.js and Passport, offering a secure and reliable authentication system. By working on this project, you'll gain practical experience in implementing authentication strategies, handling user sessions, and securing routes in Node.js.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO3lxFPRksqs5oCIwivCBWZf9jWY7-B0xtA&s",
     "how_to_use": "To use the Node.js Authentication System, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the Node.js server using npm start.\n4. Register and login to test the authentication system.",
-    "total_views": 45,
+    "total_views": 145,
     "total_downloads": 12,
     "faqs": [
       {
@@ -666,7 +675,7 @@
     "detailed_description": "The Node.js Chat App is a project designed to help you build a real-time chat application using Node.js and Socket.io. It allows users to join chat rooms, send messages, and interact with other users in real-time. The application is built using Node.js and Socket.io, providing a seamless and interactive chat experience. By working on this project, you'll gain practical experience in building chat applications, handling real-time communication, and managing user interactions in Node.js.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO3lxFPRksqs5oCIwivCBWZf9jWY7-B0xtA&s",
     "how_to_use": "To use the Node.js Chat App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the Node.js server using npm start.\n4. Open the chat application in your browser and start chatting with other users.",
-    "total_views": 39,
+    "total_views": 139,
     "total_downloads": 10,
     "faqs": [
       {
@@ -688,7 +697,7 @@
     "detailed_description": "The Node.js Blog is a project designed to help you create and manage blog posts using Node.js and MongoDB. It allows users to create, edit, and delete blog posts, manage categories and tags, and interact with readers through comments. The application is built using Node.js and MongoDB, offering a robust and efficient platform for blogging. By working on this project, you'll gain practical experience in building a full-fledged blogging platform, handling user inputs, and managing data in Node.js.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO3lxFPRksqs5oCIwivCBWZf9jWY7-B0xtA&s",
     "how_to_use": "To use the Node.js Blog, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the Node.js server using npm start.\n4. Create, edit, and delete blog posts using the blog application.",
-    "total_views": 41,
+    "total_views": 141,
     "total_downloads": 11,
     "faqs": [
       {
@@ -710,7 +719,7 @@
     "detailed_description": "The Node.js Task Manager is a project designed to help you manage tasks and to-do lists using Node.js and MongoDB. It allows users to create, edit, and delete tasks, set due dates, and mark tasks as completed. The application is built using Node.js and MongoDB, offering a simple and efficient task management solution. By working on this project, you'll gain practical experience in building task management applications, handling data operations, and managing user tasks in Node.js",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO3lxFPRksqs5oCIwivCBWZf9jWY7-B0xtA&s",
     "how_to_use": "To use the Node.js Task Manager, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the Node.js server using npm start.\n4. Manage tasks by creating, editing, and deleting them in the task manager application.",
-    "total_views": 37,
+    "total_views": 137,
     "total_downloads": 10,
     "faqs": [
       {
@@ -732,7 +741,7 @@
     "detailed_description": "The Node.js Image Uploader is a project designed to help you upload and store images using Node.js and Multer. It allows users to select and upload images, store them on the server, and display them in the application. The application is built using Node.js and Multer, providing a simple and efficient image uploading solution. By working on this project, you'll gain practical experience in handling file uploads, storing images, and managing data in Node.js.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFO3lxFPRksqs5oCIwivCBWZf9jWY7-B0xtA&s",
     "how_to_use": "To use the Node.js Image Uploader, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the Node.js server using npm start.\n4. Upload images using the image uploader application.",
-    "total_views": 32,
+    "total_views": 132,
     "total_downloads": 8,
     "faqs": [
       {
@@ -754,7 +763,7 @@
     "detailed_description": "The Fraud Detection with Machine Learning project utilizes machine learning techniques to identify fraudulent activities within financial transactions. By leveraging Python and the scikit-learn library, this project demonstrates the implementation of an unsupervised learning approach to detect anomalies in transaction data. The detailed description provides insights into the setup, training, and evaluation of the fraud detection model, enabling users to understand and utilize the project effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Fraud Detection with Machine Learning project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the Jupyter notebook and run the code to train and test the fraud detection model.\n3. Analyze the results and evaluate the model's performance.",
-    "total_views": 86,
+    "total_views": 186,
     "total_downloads": 27,
     "faqs": [
       {
@@ -776,7 +785,7 @@
     "detailed_description": "The Sentiment Analysis with Natural Language Processing project focuses on analyzing and classifying text data based on sentiment using machine learning and natural language processing techniques. By utilizing Python, scikit-learn, and the NLTK library, this project demonstrates the implementation of sentiment analysis models to classify text data into positive, negative, or neutral sentiments. The detailed description provides guidance on running and setting up the project, enabling users to perform sentiment analysis effectively",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Sentiment Analysis with Natural Language Processing project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train and test the sentiment analysis model.\n3. Analyze the sentiment of text data and evaluate the model's performance.",
-    "total_views": 78,
+    "total_views": 178,
     "total_downloads": 45,
     "faqs": [
       {
@@ -798,7 +807,7 @@
     "detailed_description": "The Image Classification with Convolutional Neural Networks project focuses on building a machine learning model for image classification using convolutional neural networks. By leveraging Python, TensorFlow, and Keras, this project demonstrates the implementation of a CNN model to classify images into different categories. The detailed description provides insights into running and setting up the project, enabling users to train and test the image classification model effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Image Classification with Convolutional Neural Networks project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train and test the image classification model.\n3. Evaluate the model's performance and accuracy on the test data.",
-    "total_views": 92,
+    "total_views": 192,
     "total_downloads": 56,
     "faqs": [
       {
@@ -820,7 +829,7 @@
     "detailed_description": "The Recommendation System with Collaborative Filtering project focuses on building a recommendation system using collaborative filtering techniques. By utilizing Python and the scikit-learn library, this project demonstrates the implementation of collaborative filtering models to recommend items based on user preferences. The detailed description provides guidance on running and setting up the project, enabling users to build and evaluate the recommendation system effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Recommendation System with Collaborative Filtering project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to build the recommendation system using collaborative filtering.\n3. Test the recommendation system with sample data and evaluate its performance.",
-    "total_views": 84,
+    "total_views": 184,
     "total_downloads": 57,
     "faqs": [
       {
@@ -842,7 +851,7 @@
     "detailed_description": "The Time Series Forecasting with Recurrent Neural Networks project focuses on building a machine learning model for time series forecasting using recurrent neural networks. By leveraging Python, TensorFlow, and Keras, this project demonstrates the implementation of an RNN model to predict trends in time series data. The detailed description provides insights into running and setting up the project, enabling users to forecast time series effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Time Series Forecasting with Recurrent Neural Networks project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train and test the time series forecasting model.\n3. Evaluate the model's performance and accuracy on the time series data.",
-    "total_views": 76,
+    "total_views": 176,
     "total_downloads": 42,
     "faqs": [
       {
@@ -864,7 +873,7 @@
     "detailed_description": "The Anomaly Detection with Unsupervised Learning project focuses on building a machine learning model for detecting anomalies in data using unsupervised learning techniques. By leveraging Python and the scikit-learn library, this project demonstrates the implementation of anomaly detection models to identify outliers and irregularities in datasets. The detailed description provides guidance on running and setting up the project, enabling users to detect anomalies effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Anomaly Detection with Unsupervised Learning project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to build the anomaly detection model using unsupervised learning.\n3. Test the model with sample data and identify anomalies in the dataset.",
-    "total_views": 68,
+    "total_views": 168,
     "total_downloads": 36,
     "faqs": [
       {
@@ -886,7 +895,7 @@
     "detailed_description": "The Text Generation with Recurrent Neural Networks project focuses on building a machine learning model for generating text using recurrent neural networks. By leveraging Python, TensorFlow, and Keras, this project demonstrates the implementation of an RNN model to generate text based on input data. The detailed description provides insights into running and setting up the project, enabling users to generate text effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Text Generation with Recurrent Neural Networks project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train the text generation model using recurrent neural networks.\n3. Generate text based on the trained model and evaluate the results.",
-    "total_views": 64,
+    "total_views": 164,
     "total_downloads": 32,
     "faqs": [
       {
@@ -908,7 +917,7 @@
     "detailed_description": "The Customer Churn Prediction with Machine Learning project focuses on building a machine learning model to predict customer churn. By leveraging Python and the scikit-learn library, this project demonstrates the implementation of a classification model to identify customers at risk of churning. The detailed description provides guidance on running and setting up the project, enabling users to predict customer churn effectively",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Customer Churn Prediction with Machine Learning project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train and test the customer churn prediction model.\n3. Evaluate the model's performance and accuracy in predicting customer churn.",
-    "total_views": 60,
+    "total_views": 160,
     "total_downloads": 33,
     "faqs": [
       {
@@ -930,7 +939,7 @@
     "detailed_description": "The Object Detection with Deep Learning project focuses on building a machine learning model for object detection using deep learning techniques. By leveraging Python, TensorFlow, and Keras, this project demonstrates the implementation of an object detection model to identify and localize objects in images. The detailed description provides insights into running and setting up the project, enabling users to detect objects effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Object Detection with Deep Learning project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train the object detection model using deep learning.\n3. Test the model on images and detect objects in the input data.",
-    "total_views": 56,
+    "total_views": 156,
     "total_downloads": 25,
     "faqs": [
       {
@@ -952,7 +961,7 @@
     "detailed_description": "The Fraud Detection with Random Forests project focuses on building a machine learning model to detect fraud using random forests. By leveraging Python and the scikit-learn library, this project demonstrates the implementation of a classification model to identify fraudulent activities in financial transactions. The detailed description provides guidance on running and setting up the project, enabling users to detect fraud effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Fraud Detection with Random Forests project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to train and test the fraud detection model using random forests.\n3. Evaluate the model's performance and accuracy in detecting fraud.",
-    "total_views": 52,
+    "total_views": 152,
     "total_downloads": 22,
     "faqs": [
       {
@@ -974,7 +983,7 @@
     "detailed_description": "The Customer Segmentation with Clustering project focuses on building a machine learning model for customer segmentation using clustering techniques. By leveraging Python and the scikit-learn library, this project demonstrates the implementation of clustering algorithms to group customers based on similar characteristics. The detailed description provides insights into running and setting up the project, enabling users to segment customers effectively.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvIPo5nPxIFB1I89A1snURcXiUvcO_GKc1A&s",
     "how_to_use": "To use the Customer Segmentation with Clustering project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to segment customers using clustering algorithms.\n3. Analyze the customer segments and identify patterns in the data.",
-    "total_views": 48,
+    "total_views": 148,
     "total_downloads": 21,
     "faqs": [
       {
@@ -996,7 +1005,7 @@
     "detailed_description": "The React Native Quiz App is a project designed to help you build a quiz application using React Native. It allows users to take quizzes, view results, and track their progress. The application is built using React Native and CSS, providing a responsive and interactive quiz experience. By working on this project, you'll gain practical experience in building mobile applications, handling user interactions, and managing quiz data in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5gYTf6NUjDDLuFrnlqJJab_H70Xmv_OOQ&s",
     "how_to_use": "To use the React Native Quiz App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the React Native app and take the quiz to test your knowledge.",
-    "total_views": 52,
+    "total_views": 252,
     "total_downloads": 15,
     "faqs": [
       {
@@ -1026,7 +1035,7 @@
     "detailed_description": "The React Native Weather App is a project designed to help you build a weather application using React Native. It allows users to view weather forecasts, check current conditions, and track weather updates. The application is built using React Native and API integration, providing a seamless and informative weather experience. By working on this project, you'll gain practical experience in building mobile applications, fetching data from APIs, and displaying weather information in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5gYTf6NUjDDLuFrnlqJJab_H70Xmv_OOQ&s",
     "how_to_use": "To use the React Native Weather App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and enter a location to view the weather forecast.",
-    "total_views": 48,
+    "total_views": 348,
     "total_downloads": 13,
     "faqs": [
       {
@@ -1052,7 +1061,7 @@
     "detailed_description": "The React Native E-commerce App is a project designed to help you build an e-commerce application using React Native. It allows users to browse products, add them to the cart, and checkout. The application is built using React Native and CSS, providing a responsive and user-friendly e-commerce experience. By working on this project, you'll gain practical experience in building mobile applications, designing user interfaces, and managing product data in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5gYTf6NUjDDLuFrnlqJJab_H70Xmv_OOQ&s",
     "how_to_use": "To use the React Native E-commerce App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and browse products, add them to the cart, and checkout.",
-    "total_views": 44,
+    "total_views": 344,
     "total_downloads": 11,
     "faqs": [
       {
@@ -1074,7 +1083,7 @@
     "detailed_description": "The React Native Social Media App is a project designed to help you build a social media application using React Native and Firebase. It allows users to create profiles, post updates, and interact with other users. The application is built using React Native and Firebase integration, providing a dynamic and engaging social media experience. By working on this project, you'll gain practical experience in building mobile applications, implementing authentication systems, and managing user interactions in React Native",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGTz1hWDwKvbrePxDrfNT2LArSmvNn-PQsw&s",
     "how_to_use": "To use the React Native Social Media App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and create an account, post updates, and interact with other users.",
-    "total_views": 40,
+    "total_views": 140,
     "total_downloads": 9,
     "faqs": [
       {
@@ -1096,7 +1105,7 @@
     "detailed_description": "The React Native Chat App is a project designed to help you build a real-time chat application using React Native and Socket.io. It allows users to join chat rooms, send messages, and interact with other users in real-time. The application is built using React Native and Socket.io, providing a seamless and interactive chat experience. By working on this project, you'll gain practical experience in building chat applications, handling real-time communication, and managing user interactions in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGTz1hWDwKvbrePxDrfNT2LArSmvNn-PQsw&s",
     "how_to_use": "To use the React Native Chat App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and connect to the chat server to start chatting with other users.",
-    "total_views": 36,
+    "total_views": 236,
     "total_downloads": 7,
     "faqs": [
       {
@@ -1118,7 +1127,7 @@
     "detailed_description": "The React Native Fitness App is a project designed to help you track your fitness activities, workouts, and progress using React Native. It allows users to log exercises, set goals, and monitor their fitness journey. The application is built using React Native and CSS, providing a user-friendly and informative fitness experience. By working on this project, you'll gain practical experience in building mobile applications, tracking health data, and managing fitness goals in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hQdk72RPcIYYf764QMUIDRi6N2PMPpeQkA&s",
     "how_to_use": "To use the React Native Fitness App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and track your fitness activities, workouts, and progress.",
-    "total_views": 32,
+    "total_views": 302,
     "total_downloads": 5,
     "faqs": [
       {
@@ -1140,7 +1149,7 @@
     "detailed_description": "The React Native Recipe App is a project designed to help you browse and discover recipes using React Native and API integration. It allows users to search for recipes, view details, and save favorites. The application is built using React Native and API integration, providing a rich and interactive recipe browsing experience. By working on this project, you'll gain practical experience in building mobile applications, fetching data from APIs, and managing recipe data in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hQdk72RPcIYYf764QMUIDRi6N2PMPpeQkA&s",
     "how_to_use": "To use the React Native Recipe App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and browse recipes, save favorites, and view details.",
-    "total_views": 28,
+    "total_views": 218,
     "total_downloads": 3,
     "faqs": [
       {
@@ -1162,7 +1171,7 @@
     "detailed_description": "The React Native Music Player is a project designed to help you build a music player application using React Native. It allows users to play music tracks, create playlists, and control playback. The application is built using React Native and CSS, providing a responsive and interactive music player experience. By working on this project, you'll gain practical experience in building mobile applications, handling audio playback, and managing music tracks in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hQdk72RPcIYYf764QMUIDRi6N2PMPpeQkA&s",
     "how_to_use": "To use the React Native Music Player, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and play music tracks, create playlists, and control playback.",
-    "total_views": 24,
+    "total_views": 124,
     "total_downloads": 1,
     "faqs": [
       {
@@ -1184,7 +1193,7 @@
     "detailed_description": "The React Native News App is a project designed to help you browse news articles using React Native and API integration. It allows users to read news, save favorites, and view details. The application is built using React Native and API integration, providing a rich and informative news browsing experience. By working on this project, you'll gain practical experience in building mobile applications, fetching data from APIs, and managing news articles in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hQdk72RPcIYYf764QMUIDRi6N2PMPpeQkA&s",
     "how_to_use": "To use the React Native News App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and browse news articles, save favorites, and read details.",
-    "total_views": 20,
+    "total_views": 210,
     "total_downloads": 2,
     "faqs": [
       {
@@ -1206,7 +1215,7 @@
     "detailed_description": "The React Native Todo App is a project designed to help you manage todo items using React Native and Redux. It allows users to create tasks, mark as complete, and delete items. The application is built using React Native and Redux, providing a simple and efficient todo management experience. By working on this project, you'll gain practical experience in building mobile applications, managing state, and handling user interactions in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hQdk72RPcIYYf764QMUIDRi6N2PMPpeQkA&s",
     "how_to_use": "To use the React Native Todo App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and manage todo items, mark as complete, and delete tasks.",
-    "total_views": 16,
+    "total_views": 216,
     "total_downloads": 1,
     "faqs": [
       {
@@ -1228,7 +1237,7 @@
     "detailed_description": "The React Native Calendar App is a project designed to help you manage events and schedules using React Native. It allows users to view, add, and edit events on a calendar interface. The application is built using React Native and CSS, providing a user-friendly and interactive calendar experience. By working on this project, you'll gain practical experience in building mobile applications, handling date/time data, and managing events in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqbDurSsMHjtBw7zQkm5rlxru971TvGmqcKQ&s",
     "how_to_use": "To use the React Native Calendar App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and view, add, and edit events on the calendar.",
-    "total_views": 22,
+    "total_views": 212,
     "total_downloads": 1,
     "faqs": [
       {
@@ -1250,7 +1259,7 @@
     "detailed_description": "The React Native Quiz Game is a project designed to help you build a quiz game using React Native. It allows users to answer questions, track scores, and compete with friends. The application is built using React Native and CSS, providing an engaging and interactive quiz experience. By working on this project, you'll gain practical experience in building mobile games, managing game logic, and handling user interactions in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqbDurSsMHjtBw7zQkm5rlxru971TvGmqcKQ&s",
     "how_to_use": "To use the React Native Quiz Game, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and play the quiz game, answer questions, and track your score.",
-    "total_views": 8,
+    "total_views": 128,
     "total_downloads": 1,
     "faqs": [
       {
@@ -1272,7 +1281,7 @@
     "detailed_description": "The React Native Travel App is a project designed to help you explore travel destinations using React Native. It allows users to browse trips, book accommodations, and view travel details. The application is built using React Native and CSS, providing a responsive and informative travel experience. By working on this project, you'll gain practical experience in building mobile applications, designing user interfaces, and managing travel data in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGTz1hWDwKvbrePxDrfNT2LArSmvNn-PQsw&s",
     "how_to_use": "To use the React Native Travel App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and browse travel destinations, book trips, and view details.",
-    "total_views": 6,
+    "total_views": 126,
     "total_downloads": 2,
     "faqs": [
       {
@@ -1294,7 +1303,7 @@
     "detailed_description": "The React Native Messaging App is a project designed to help you build a real-time messaging application using React Native and Socket.io. It allows users to send messages, create chat rooms, and interact with other users in real-time. The application is built using React Native and Socket.io, providing a seamless and interactive messaging experience. By working on this project, you'll gain practical experience in building chat applications, handling real-time communication, and managing user interactions in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5gYTf6NUjDDLuFrnlqJJab_H70Xmv_OOQ&s",
     "how_to_use": "To use the React Native Messaging App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and connect to the chat server to start messaging with other users.",
-    "total_views": 12,
+    "total_views": 212,
     "total_downloads": 1,
     "faqs": [
       {
@@ -1316,7 +1325,7 @@
     "detailed_description": "The React Native Recipe Finder is a project designed to help you discover and save recipes using React Native and API integration. It allows users to search for recipes, view details, and save favorites. The application is built using React Native and API integration, providing a rich and interactive recipe browsing experience. By working on this project, you'll gain practical experience in building mobile applications, fetching data from APIs, and managing recipe data in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5gYTf6NUjDDLuFrnlqJJab_H70Xmv_OOQ&s",
     "how_to_use": "To use the React Native Recipe Finder, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and search for recipes, view details, and save favorites.",
-    "total_views": 68,
+    "total_views": 268,
     "total_downloads": 15,
     "faqs": [
       {
@@ -1338,7 +1347,7 @@
     "detailed_description": "The React Native Movie App is a project designed to help you browse and discover movies using React Native and API integration. It allows users to search for movies, view details, and watch trailers. The application is built using React Native and API integration, providing a rich and interactive movie browsing experience. By working on this project, you'll gain practical experience in building mobile applications, fetching data from APIs, and managing movie data in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5gYTf6NUjDDLuFrnlqJJab_H70Xmv_OOQ&s",
     "how_to_use": "To use the React Native Movie App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and browse movies, view details, and watch trailers.",
-    "total_views": 64,
+    "total_views": 264,
     "total_downloads": 13,
     "faqs": [
       {
@@ -1360,7 +1369,7 @@
     "detailed_description": "The React Native Recipe Sharing App is a project designed to help you share and discover recipes using React Native and Firebase integration. It allows users to post recipes, view shared recipes, and interact with the community. The application is built using React Native and Firebase integration, providing a dynamic and engaging recipe sharing experience. By working on this project, you'll gain practical experience in building mobile applications, implementing authentication systems, and managing user interactions in React Native.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hQdk72RPcIYYf764QMUIDRi6N2PMPpeQkA&s",
     "how_to_use": "To use the React Native Recipe Sharing App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Open the React Native app and share recipes, view recipes shared by others, and interact with the community.",
-    "total_views": 50,
+    "total_views": 350,
     "total_downloads": 11,
     "faqs": [
       {
@@ -1382,7 +1391,7 @@
     "detailed_description": "Java File Encryption is an application designed to encrypt and decrypt files using Java programming language. The detailed description provides instructions on how to set up and run the Java File Encryption project. By following these steps, users can utilize the application to secure their files and protect sensitive data from unauthorized access.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java File Encryption project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java program to encrypt and decrypt files.\n3. Secure your files with encryption and protect sensitive data.",
-    "total_views": 46,
+    "total_views": 246,
     "total_downloads": 9,
     "faqs": [
       {
@@ -1404,7 +1413,7 @@
     "detailed_description": "Java Chat Application is a chat platform developed using Java and socket programming. The detailed description provides instructions on how to set up and run the Java Chat Application project. By following these steps, users can establish a chat server and connect clients to communicate with each other in real-time.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java Chat Application, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java program to start the chat server and connect clients.\n3. Chat with other users in real-time using the Java chat application.",
-    "total_views": 42,
+    "total_views": 142,
     "total_downloads": 7,
     "faqs": [
       {
@@ -1426,7 +1435,7 @@
     "detailed_description": "Java Todo App is a project designed to help users manage their tasks and to-do lists using Java programming language. The detailed description provides instructions on how to set up and run the Java Todo App project. By following these steps, users can organize their tasks, mark as complete, and delete items using the Java todo application.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java Todo App, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java program to manage todo items, mark as complete, and delete tasks.\n3. Organize your tasks and stay productive with the Java todo application.",
-    "total_views": 38,
+    "total_views": 138,
     "total_downloads": 5,
     "faqs": [
       {
@@ -1448,7 +1457,7 @@
     "detailed_description": "Java Calculator is a simple calculator application developed using Java and Swing GUI components. The detailed description provides instructions on how to set up and run the Java Calculator project. By following these steps, users can perform basic arithmetic operations and solve mathematical equations using the Java calculator application.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java Calculator, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java program to perform basic arithmetic operations.\n3. Calculate numbers and solve mathematical equations with the Java calculator application.",
-    "total_views": 34,
+    "total_views": 134,
     "total_downloads": 3,
     "faqs": [
       {
@@ -1470,7 +1479,7 @@
     "detailed_description": "Java File Compression is an application designed to compress and decompress files using Java programming language. The detailed description provides instructions on how to set up and run the Java File Compression project. By following these steps, users can reduce file size and save storage space with the Java file compression application.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java File Compression project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java program to compress and decompress files.\n3. Reduce file size and save storage space with the Java file compression application.",
-    "total_views": 30,
+    "total_views": 130,
     "total_downloads": 12,
     "faqs": [
       {
@@ -1492,7 +1501,7 @@
     "detailed_description": "Java Image Processing is a project designed to help users process images, apply filters, and manipulate pixels using Java programming language. The detailed description provides instructions on how to set up and run the Java Image Processing project. By following these steps, users can enhance images and perform image processing tasks with the Java image processing application.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_NnyuVgB10WS8CKgZOZWp4TWxlA7Mdmmaw&s",
     "how_to_use": "To use the Java Image Processing project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Java program to process images, apply filters, and manipulate pixels.\n3. Enhance images and perform image processing tasks with the Java image processing application.",
-    "total_views": 26,
+    "total_views": 126,
     "total_downloads": 9,
     "faqs": [
       {
@@ -1514,7 +1523,7 @@
     "detailed_description": "The Python Flask Blog is a project designed to help you build a blog application using Python and Flask. It allows users to create, edit, and delete blog posts, manage categories, and interact with the blog community. The application is built using Python, Flask, HTML, and CSS, providing a dynamic and interactive blogging experience. By working on this project, you'll gain practical experience in building web applications, handling user authentication, and managing blog content with Python and Flask.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Flask Blog project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Flask app and create, edit, and delete blog posts.",
-    "total_views": 22,
+    "total_views": 245,
     "total_downloads": 6,
     "faqs": [
       {
@@ -1536,7 +1545,7 @@
     "detailed_description": "The Python Weather App is a project designed to help you get weather information for a location using Python and API integration. It allows users to enter a location and view the current weather conditions, temperature, and forecast. The application is built using Python and API integration, providing real-time weather data and forecasts. By working on this project, you'll gain practical experience in building weather applications, fetching data from APIs, and displaying weather information with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Weather App project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to get weather information for a location.",
-    "total_views": 18,
+    "total_views": 218,
     "total_downloads": 3,
     "faqs": [
       {
@@ -1558,7 +1567,7 @@
     "detailed_description": "The Python Chatbot is a project designed to help you build a chatbot using Python programming language. It allows users to interact with the chatbot, ask questions, and get responses. The application is built using Python, providing a simple and interactive chatbot experience. By working on this project, you'll gain practical experience in building chatbots, handling user queries, and implementing conversational AI with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Chatbot project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to chat with the chatbot and get responses to your queries.",
-    "total_views": 74,
+    "total_views": 274,
     "total_downloads": 21,
     "faqs": [
       {
@@ -1580,7 +1589,7 @@
     "detailed_description": "The Python Image Recognition is a project designed to help you recognize objects in images using Python and machine learning. It allows users to upload images and classify objects based on the trained model. The application is built using Python and machine learning algorithms, providing an image recognition experience. By working on this project, you'll gain practical experience in building image recognition systems, training models, and classifying objects with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Image Recognition project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to recognize objects in images and classify them.",
-    "total_views": 70,
+    "total_views": 170,
     "total_downloads": 19,
     "faqs": [
       {
@@ -1602,7 +1611,7 @@
     "detailed_description": "The Python Data Visualization is a project designed to help you visualize data using Python programming language. It allows users to create charts, graphs, and plots to analyze and present data. The application is built using Python, providing a data visualization experience. By working on this project, you'll gain practical experience in building data visualization tools, creating visualizations, and analyzing data with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Data Visualization project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to visualize data using charts, graphs, and plots.",
-    "total_views": 66,
+    "total_views": 166,
     "total_downloads": 15,
     "faqs": [
       {
@@ -1624,7 +1633,7 @@
     "detailed_description": "The Python Web Scraper is a project designed to help you scrape data from websites using Python programming language. It allows users to extract information, parse HTML content, and save data to a file. The application is built using Python, providing a web scraping experience. By working on this project, you'll gain practical experience in building web scraping tools, extracting data, and parsing HTML content with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Web Scraper project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to scrape data from websites and extract information.",
-    "total_views": 62,
+    "total_views": 162,
     "total_downloads": 11,
     "faqs": [
       {
@@ -1646,7 +1655,7 @@
     "detailed_description": "The Python Password Generator is a project designed to help you generate strong and secure passwords using Python programming language. It allows users to create complex passwords for their accounts and enhance security. The application is built using Python, providing a password generation experience. By working on this project, you'll gain practical experience in building password generation tools and enhancing security with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Password Generator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to generate strong and secure passwords.\n3. Create complex passwords for your accounts and enhance security.",
-    "total_views": 58,
+    "total_views": 258,
     "total_downloads": 12,
     "faqs": [
       {
@@ -1668,8 +1677,8 @@
     "detailed_description": "The Python Email Sender is a project designed to help you send emails to recipients using Python programming language. It allows users to compose messages, add attachments, and send emails programmatically. The application is built using Python, providing an email sending experience. By working on this project, you'll gain practical experience in building email sending tools, composing messages, and automating email communication with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Email Sender project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to send emails to recipients.",
-    "total_views": 54,
-    "total_downloads": 8,
+    "total_views": 454,
+    "total_downloads": 78,
     "faqs": [
       {
         "question": "Can I customize the email sender to include specific attachments?",
@@ -1690,7 +1699,7 @@
     "detailed_description": "The Python File Renamer is a project designed to help you rename files in a directory using Python programming language. It allows users to organize and manage files by renaming them based on specific criteria. The application is built using Python, providing a file renaming experience. By working on this project, you'll gain practical experience in building file management tools, renaming files, and organizing data with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python File Renamer project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to rename files in a directory.\n3. Organize and manage your files with the Python file renaming application.",
-    "total_views": 50,
+    "total_views": 150,
     "total_downloads": 5,
     "faqs": [
       {
@@ -1712,7 +1721,7 @@
     "detailed_description": "The Python URL Shortener is a project designed to help you shorten URLs and generate short links using Python programming language. It allows users to enter long URLs and get shortened links for sharing. The application is built using Python, providing a URL shortening experience. By working on this project, you'll gain practical experience in building web applications, shortening URLs, and generating short links with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python URL Shortener project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to shorten URLs and generate short links.",
-    "total_views": 46,
+    "total_views": 246,
     "total_downloads": 23,
     "faqs": [
       {
@@ -1734,7 +1743,7 @@
     "detailed_description": "The Python PDF Generator is a project designed to help you generate PDF files from web pages or text content using Python programming language. It allows users to convert web pages to PDF documents for offline reading or archiving. The application is built using Python, providing a PDF generation experience. By working on this project, you'll gain practical experience in building PDF generation tools, converting web pages to PDF, and creating PDF documents with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python PDF Generator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to generate PDF files from web pages or text content.",
-    "total_views": 42,
+    "total_views": 272,
     "total_downloads": 21,
     "faqs": [
       {
@@ -1756,7 +1765,7 @@
     "detailed_description": "The Python Quiz Game is a project designed to help you build a quiz game using Python programming language. It allows users to answer questions, track scores, and test their knowledge. The application is built using Python, providing an interactive quiz experience. By working on this project, you'll gain practical experience in building quiz games, managing game logic, and handling user interactions with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Quiz Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to play the quiz game and answer questions.\n3. Test your knowledge and have fun with the Python quiz game application.",
-    "total_views": 38,
+    "total_views": 318,
     "total_downloads": 19,
     "faqs": [
       {
@@ -1778,7 +1787,7 @@
     "detailed_description": "The Python Currency Converter is a project designed to help you convert currencies using exchange rates with Python programming language. It allows users to enter currency amounts, select conversion rates, and calculate equivalent amounts. The application is built using Python, providing a currency conversion experience. By working on this project, you'll gain practical experience in building currency conversion tools, fetching exchange rates, and calculating currency amounts with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Currency Converter project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to convert currencies using exchange rates.",
-    "total_views": 34,
+    "total_views": 314,
     "total_downloads": 15,
     "faqs": [
       {
@@ -1800,7 +1809,7 @@
     "detailed_description": "The Python Image Gallery is a project designed to help you display images in a gallery format using Python programming language. It allows users to view images, navigate through galleries, and interact with image collections. The application is built using Python, providing an image gallery experience. By working on this project, you'll gain practical experience in building image galleries, displaying images, and managing image collections with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Image Gallery project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to display images in a gallery format.",
-    "total_views": 30,
+    "total_views": 130,
     "total_downloads": 11,
     "faqs": [
       {
@@ -1822,7 +1831,7 @@
     "detailed_description": "The Python Text Editor is a project designed to help you edit text files using Python programming language. It allows users to create, edit, and save text documents with a simple and intuitive interface. The application is built using Python, providing a text editing experience. By working on this project, you'll gain practical experience in building text editors, handling file operations, and managing text content with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Text Editor project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to edit text files and save changes.",
-    "total_views": 26,
+    "total_views": 226,
     "total_downloads": 7,
     "faqs": [
       {
@@ -1844,7 +1853,7 @@
     "detailed_description": "The Python Password Manager is a project designed to help you store and manage passwords securely using Python programming language. It allows users to create, store, and retrieve passwords with encryption and security features. The application is built using Python, providing a password management experience. By working on this project, you'll gain practical experience in building password managers, encrypting data, and securing sensitive information with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Password Manager project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to store and manage passwords securely.",
-    "total_views": 22,
+    "total_views": 225,
     "total_downloads": 3,
     "faqs": [
       {
@@ -1866,7 +1875,7 @@
     "detailed_description": "The Python File Explorer is a project designed to help you navigate files and folders on your system using Python programming language. It allows users to browse directories, view files, and manage file operations with a simple and intuitive interface. The application is built using Python, providing a file exploration experience. By working on this project, you'll gain practical experience in building file explorers, navigating directories, and managing files with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python File Explorer project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to navigate files and folders on your system.",
-    "total_views": 18,
+    "total_views": 218,
     "total_downloads": 1,
     "faqs": [
       {
@@ -1888,7 +1897,7 @@
     "detailed_description": "The Python RSS Reader is a project designed to help you read and display RSS feeds from websites using Python programming language. It allows users to fetch and parse RSS feeds, display articles, and stay updated with the latest content. The application is built using Python, providing an RSS reading experience. By working on this project, you'll gain practical experience in building RSS readers, fetching data from websites, and parsing XML content with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python RSS Reader project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to read and display RSS feeds from websites.",
-    "total_views": 14,
+    "total_views": 114,
     "total_downloads": 0,
     "faqs": [
       {
@@ -1910,7 +1919,7 @@
     "detailed_description": "The Python Video Downloader is a project designed to help you download videos from YouTube using Python programming language. It allows users to enter video URLs, fetch video data, and download videos for offline viewing. The application is built using Python, providing a video downloading experience. By working on this project, you'll gain practical experience in building video downloaders, fetching data from websites, and downloading videos with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Video Downloader project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using pip install.\n3. Run the Python script to download videos from YouTube.",
-    "total_views": 93,
+    "total_views": 193,
     "total_downloads": 12,
     "faqs": [
       {
@@ -1932,7 +1941,7 @@
     "detailed_description": "The Python Sudoku Solver is a project designed to help you solve Sudoku puzzles using Python programming language. It allows users to input Sudoku boards, solve puzzles using backtracking algorithms, and display the solutions. The application is built using Python, providing a Sudoku solving experience. By working on this project, you'll gain practical experience in building Sudoku solvers, implementing backtracking algorithms, and solving puzzles with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python Sudoku Solver project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to solve Sudoku puzzles using backtracking.",
-    "total_views": 26,
+    "total_views": 226,
     "total_downloads": 3,
     "faqs": [
       {
@@ -1954,7 +1963,7 @@
     "detailed_description": "The Python URL Validator is a project designed to help you validate URLs using regular expressions in Python programming language. It allows users to input URLs, validate them based on patterns, and check for correct formatting. The application is built using Python, providing a URL validation experience. By working on this project, you'll gain practical experience in building URL validators, using regular expressions, and validating URLs with Python.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-vHurcatNd-kxtzNBJ-w7zt2DyLUlTJSJw&s",
     "how_to_use": "To use the Python URL Validator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Run the Python script to validate URLs using regular expressions.",
-    "total_views": 67,
+    "total_views": 267,
     "total_downloads": 32,
     "faqs": [
       {
@@ -1976,8 +1985,8 @@
     "detailed_description": "JavaScript Todo List is a beginner-friendly todo list application developed using JavaScript, HTML, and CSS. It allows users to manage tasks, add new todos, and mark tasks as complete. This detailed description provides instructions on how to set up and run the JavaScript Todo List project. By following these steps, users can organize tasks and stay productive with the JavaScript todo list application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Todo List project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to manage tasks, add new todos, and mark as complete.\n3. Organize your tasks and stay productive with the JavaScript todo list application.",
-    "total_views": 54,
-    "total_downloads": 15,
+    "total_views": 454,
+    "total_downloads": 45,
     "faqs": [
       {
         "question": "Can I customize the todo list to include additional features?",
@@ -2002,7 +2011,7 @@
     "detailed_description": "The JavaScript Contact Form project offers a simple and interactive contact form implemented using JavaScript. This project description provides guidance on running and configuring the JavaScript Contact Form application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Contact Form project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to fill out the contact form and submit messages.\n3. Create a contact form and collect user information with the JavaScript contact form application.",
-    "total_views": 34,
+    "total_views": 234,
     "total_downloads": 15,
     "faqs": [
       {
@@ -2024,7 +2033,7 @@
     "detailed_description": "The JavaScript Clock project is a simple clock application developed using JavaScript. This project requires basic understanding of HTML, CSS, and JavaScript to get started. It takes approximately 2 hours to complete and is suitable for beginners. The source code for this project is available on GitHub. To use the JavaScript Clock project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to view the current time and date.\n3. Check the time and date with the JavaScript clock application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Clock project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to view the current time and date.\n3. Check the time and date with the JavaScript clock application.",
-    "total_views": 30,
+    "total_views": 230,
     "total_downloads": 11,
     "faqs": [
       {
@@ -2046,7 +2055,7 @@
     "detailed_description": "The JavaScript BMI Calculator project is a simple application developed using JavaScript to calculate Body Mass Index (BMI). It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript BMI Calculator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to calculate BMI based on height and weight.\n3. Monitor your health and track your body mass index with the JavaScript BMI calculator application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript BMI Calculator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to calculate BMI based on height and weight.\n3. Monitor your health and track your body mass index with the JavaScript BMI calculator application.",
-    "total_views": 26,
+    "total_views": 126,
     "total_downloads": 7,
     "faqs": [
       {
@@ -2068,8 +2077,8 @@
     "detailed_description": "The JavaScript Random Quote Generator project is a simple application developed using JavaScript to display random quotes. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Random Quote Generator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to generate random quotes and display them.\n3. Get inspired and motivated with the JavaScript random quote generator application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Random Quote Generator project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to generate random quotes and display them.\n3. Get inspired and motivated with the JavaScript random quote generator application.",
-    "total_views": 22,
-    "total_downloads": 3,
+    "total_views": 422,
+    "total_downloads": 63,
     "faqs": [
       {
         "question": "Can I customize the quote generator to include different quote categories?",
@@ -2090,8 +2099,8 @@
     "detailed_description": "The JavaScript Tic Tac Toe project is a simple game application developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Tic Tac Toe project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the tic tac toe game.\n3. Challenge your friends and have fun with the JavaScript tic tac toe game application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Tic Tac Toe project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the tic tac toe game.\n3. Challenge your friends and have fun with the JavaScript tic tac toe game application.",
-    "total_views": 18,
-    "total_downloads": 1,
+    "total_views": 318,
+    "total_downloads": 54,
     "faqs": [
       {
         "question": "Can I customize the tic tac toe game to include different board sizes?",
@@ -2112,8 +2121,8 @@
     "detailed_description": "The JavaScript Rock Paper Scissors project is a simple game application developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Rock Paper Scissors project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the rock paper scissors game.\n3. Challenge the computer and test your luck with the JavaScript rock paper scissors game application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Rock Paper Scissors project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the rock paper scissors game.\n3. Challenge the computer and test your luck with the JavaScript rock paper scissors game application.",
-    "total_views": 24,
-    "total_downloads": 1,
+    "total_views": 324,
+    "total_downloads": 41,
     "faqs": [
       {
         "question": "Can I customize the rock paper scissors game to include additional options?",
@@ -2134,7 +2143,7 @@
     "detailed_description": "The JavaScript Memory Game project is a simple game application developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Memory Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the memory game and match cards.\n3. Test your memory and have fun with the JavaScript memory game application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Memory Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the memory game and match cards.\n3. Test your memory and have fun with the JavaScript memory game application.",
-    "total_views": 10,
+    "total_views": 110,
     "total_downloads": 1,
     "faqs": [
       {
@@ -2156,7 +2165,7 @@
     "detailed_description": "The JavaScript Snake Game project is a simple game application developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Snake Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the snake game and eat food.\n3. Grow the snake and avoid collisions with the JavaScript snake game application",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Snake Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the snake game and eat food.\n3. Grow the snake and avoid collisions with the JavaScript snake game application.",
-    "total_views": 36,
+    "total_views": 236,
     "total_downloads": 11,
     "faqs": [
       {
@@ -2178,7 +2187,7 @@
     "detailed_description": "The JavaScript Chat Application project is a simple chat application developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Chat Application project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to chat with other users in real-time.\n3. Send messages and communicate with friends using the JavaScript chat application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Chat Application project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to chat with other users in real-time.\n3. Send messages and communicate with friends using the JavaScript chat application.",
-    "total_views": 32,
+    "total_views": 132,
     "total_downloads": 11,
     "faqs": [
       {
@@ -2200,7 +2209,7 @@
     "detailed_description": "The JavaScript Carousel project is a simple image carousel developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Carousel project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to view and navigate through images.\n3. Create a slideshow and display images with the JavaScript carousel application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Carousel project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to view and navigate through images.\n3. Create a slideshow and display images with the JavaScript carousel application.",
-    "total_views": 28,
+    "total_views": 128,
     "total_downloads": 7,
     "faqs": [
       {
@@ -2222,7 +2231,7 @@
     "detailed_description": "The JavaScript Drag and Drop project is a simple application developed using JavaScript to drag and drop elements on a web page. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Drag and Drop project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to drag and drop elements on the page.\n3. Interact with the user interface and move items with the JavaScript drag and drop application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Drag and Drop project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to drag and drop elements on the page.\n3. Interact with the user interface and move items with the JavaScript drag and drop application.",
-    "total_views": 24,
+    "total_views": 124,
     "total_downloads": 3,
     "faqs": [
       {
@@ -2244,7 +2253,7 @@
     "detailed_description": "The JavaScript Memory Card Game project is a simple game application developed using JavaScript. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Memory Card Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the memory card game and match cards.\n3. Test your memory and have fun with the JavaScript memory card game application.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Memory Card Game project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to play the memory card game and match cards.\n3. Test your memory and have fun with the JavaScript memory card game application.",
-    "total_views": 42,
+    "total_views": 142,
     "total_downloads": 5,
     "faqs": [
       {
@@ -2266,7 +2275,7 @@
     "detailed_description": "The JavaScript Star Rating project is a simple component developed using JavaScript to rate items using star icons. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Star Rating project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to rate items using star icons.\n3. Provide feedback and rate products with the JavaScript star rating component.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Star Rating project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to rate items using star icons.\n3. Provide feedback and rate products with the JavaScript star rating component.",
-    "total_views": 36,
+    "total_views": 236,
     "total_downloads": 3,
     "faqs": [
       {
@@ -2288,8 +2297,8 @@
     "detailed_description": "The JavaScript Image Zoom project is a simple component developed using JavaScript to zoom in and out of images. It requires basic understanding of HTML, CSS, and JavaScript to get started. This project is suitable for beginners and takes approximately 2 hours to complete. The source code for this project is available on GitHub. To use the JavaScript Image Zoom project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to zoom in and out of images.\n3. View high-resolution images and details with the JavaScript image zoom component.",
     "image": "https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png",
     "how_to_use": "To use the JavaScript Image Zoom project, follow these steps:\n1. Clone the repository from the source code link.\n2. Open the HTML file in a browser to zoom in and out of images.\n3. View high-resolution images and details with the JavaScript image zoom component.",
-    "total_views": 12,
-    "total_downloads": 1,
+    "total_views": 312,
+    "total_downloads": 31,
     "faqs": [
       {
         "question": "Can I customize the image zoom component to include different zoom levels?",
@@ -2310,7 +2319,7 @@
     "detailed_description": "The C Programming Basics project is a collection of basic C programming examples aimed at beginners. It covers fundamental concepts and serves as a good starting point for those new to programming. The project requires basic knowledge of programming concepts and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the C Programming Basics project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to understand basic concepts.\n3. Learn programming fundamentals with the C programming basics examples.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Programming Basics project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to understand basic concepts.\n3. Learn programming fundamentals with the C programming basics examples.",
-    "total_views": 30,
+    "total_views": 230,
     "total_downloads": 11,
     "faqs": [
       {
@@ -2332,7 +2341,7 @@
     "detailed_description": "The C File Handling project provides examples of file handling operations in the C programming language. It covers reading, writing, and manipulating files, and is suitable for intermediate-level programmers. The project requires basic knowledge of C programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the C File Handling project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to read, write, and manipulate files.\n3. Practice file handling operations with the C file handling examples.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C File Handling project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to read, write, and manipulate files.\n3. Practice file handling operations with the C file handling examples.",
-    "total_views": 26,
+    "total_views": 126,
     "total_downloads": 5,
     "faqs": [
       {
@@ -2354,7 +2363,7 @@
     "detailed_description": "The C Data Structures project provides examples of data structures implemented in the C programming language. It covers linked lists, stacks, queues, and more, and is suitable for intermediate-level programmers. The project requires basic knowledge of C programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the C Data Structures project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement data structures.\n3. Learn about data structures and algorithms with the C data structures examples",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Data Structures project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement data structures.\n3. Learn about data structures and algorithms with the C data structures examples.",
-    "total_views": 22,
+    "total_views": 232,
     "total_downloads": 3,
     "faqs": [
       {
@@ -2376,7 +2385,7 @@
     "detailed_description": "The C Sorting Algorithms project provides examples of sorting algorithms implemented in the C programming language. It covers popular sorting techniques such as bubble sort, selection sort, and more, and is suitable for intermediate-level programmers. The project requires basic knowledge of C programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the C Sorting Algorithms project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement sorting algorithms.\n3. Practice sorting techniques with the C sorting algorithms examples.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Sorting Algorithms project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement sorting algorithms.\n3. Practice sorting techniques with the C sorting algorithms examples.",
-    "total_views": 18,
+    "total_views": 138,
     "total_downloads": 1,
     "faqs": [
       {
@@ -2398,7 +2407,7 @@
     "detailed_description": "The C Searching Algorithms project provides examples of searching algorithms implemented in the C programming language. It covers popular search techniques such as linear search, binary search, and more, and is suitable for intermediate-level programmers. The project requires basic knowledge of C programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the C Searching Algorithms project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement searching algorithms.\n3. Practice searching techniques with the C searching algorithms examples.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Searching Algorithms project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement searching algorithms.\n3. Practice searching techniques with the C searching algorithms examples.",
-    "total_views": 14,
+    "total_views": 174,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2420,7 +2429,7 @@
     "detailed_description": "This is a detailed description of how to run and set up the C Linked List example.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Linked List project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement a linked list.\n3. Learn about linked lists and data structures with the C linked list example.",
-    "total_views": 10,
+    "total_views": 150,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2442,7 +2451,7 @@
     "detailed_description": "This is a detailed description of how to run and set up the C Stack example.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Stack project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement a stack data structure.\n3. Practice stack operations and algorithms with the C stack example.",
-    "total_views": 14,
+    "total_views": 114,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2464,7 +2473,7 @@
     "detailed_description": "This is a detailed description of how to run and set up the C Queue example.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Queue project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement a queue data structure.\n3. Practice queue operations and algorithms with the C queue example.",
-    "total_views": 12,
+    "total_views": 122,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2486,7 +2495,7 @@
     "detailed_description": "This is a detailed description of how to run and set up the C Binary Tree example",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Binary Tree project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement a binary tree data structure.\n3. Learn about binary trees and algorithms with the C binary tree example.",
-    "total_views": 8,
+    "total_views": 128,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2508,7 +2517,7 @@
     "detailed_description": "This is a detailed description of how to run and set up the C Graph example.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Graph project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement a graph data structure.\n3. Practice graph algorithms and operations with the C graph example.",
-    "total_views": 8,
+    "total_views": 218,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2530,7 +2539,7 @@
     "detailed_description": "This is a detailed description of how to run and set up the C Hash Table example.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C Hash Table project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to implement a hash table data structure.\n3. Practice hash table operations and algorithms with the C hash table example.",
-    "total_views": 12,
+    "total_views": 212,
     "total_downloads": 0,
     "faqs": [
       {
@@ -2552,7 +2561,7 @@
     "detailed_description": "C File Compression provides an example of file compression implemented in the C programming language. It demonstrates how to compress and decompress files using C programs. The detailed description offers instructions on setting up and running the C File Compression project.",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fbg3bxh6ztokk0z41otq6.jpg",
     "how_to_use": "To use the C File Compression project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the C programs to compress and decompress files.\n3. Learn about file compression techniques with the C file compression example.",
-    "total_views": 26,
+    "total_views": 226,
     "total_downloads": 1,
     "faqs": [
       {
@@ -2574,8 +2583,8 @@
     "detailed_description": "The Rust Web Server is an educational project showcasing the implementation of a basic web server using the Rust programming language. Designed for intermediate Rust developers, this project offers insights into handling HTTP requests, routing, and serving static content. By examining the codebase and experimenting with the server, developers can deepen their understanding of Rust's concurrency features and memory safety guarantees in the context of web development.\n\nTo set up and run the Rust Web Server:\n1. Clone the repository from the provided source code link.\n2. Navigate to the project directory.\n3. Ensure Rust and Cargo are installed on your system.\n4. Use Cargo to build the project: `cargo build`.\n5. Start the server by running the generated binary: `cargo run`.\n6. Access the server in your browser or send HTTP requests using tools like cURL.\n7. Explore the codebase to understand how different components of the web server are implemented.\n",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Web Server project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement a web server.\n3. Practice building web applications with the Rust web server example.",
-    "total_views": 10,
-    "total_downloads": 2,
+    "total_views": 210,
+    "total_downloads": 32,
     "faqs": [
       {
         "question": "Can I customize the web server to include additional features?",
@@ -2596,7 +2605,7 @@
     "detailed_description": "The Rust CLI Tool serves as an illustrative example of building a command-line interface (CLI) application using the Rust programming language. Targeted towards intermediate Rust developers, this project demonstrates best practices in structuring CLI tools, parsing command-line arguments, and interacting with system resources.\n\nTo set up and run the Rust CLI Tool:\n1. Clone the repository from the provided source code link.\n2. Navigate to the project directory.\n3. Ensure Rust and Cargo are installed on your system.\n4. Use Cargo to build the project: `cargo build`.\n5. Execute the resulting binary to utilize the CLI tool, following the usage instructions provided in the project's README or documentation.\n\nBy exploring this project and experimenting with the Rust CLI Tool, developers can enhance their proficiency in building efficient and user-friendly command-line applications with Rust.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust CLI Tool project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement a command-line interface tool.\n3. Practice building CLI applications with the Rust CLI tool example.",
-    "total_views": 68,
+    "total_views": 268,
     "total_downloads": 21,
     "faqs": [
       {
@@ -2618,7 +2627,7 @@
     "detailed_description": "The Rust Unit Testing project provides a hands-on introduction to writing and running unit tests in the Rust programming language. Geared towards intermediate Rust developers, this project covers the basics of unit testing, test-driven development (TDD), and the built-in testing framework in Rust. By exploring the test cases and assertions in the project, developers can gain practical experience in ensuring code quality and reliability through automated testing.\n\nTo set up and run the Rust Unit Testing project:\n1. Clone the repository from the provided source code link.\n2. Navigate to the project directory.\n3. Ensure Rust and Cargo are installed on your system.\n4. Use Cargo to run the tests: `cargo test`.\n5. Analyze the test results and modify the code to improve test coverage and correctness.\n\nBy engaging with this project, developers can strengthen their proficiency in writing effective unit tests and leveraging Rust's testing capabilities.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Unit Testing project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to perform unit testing.\n3. Practice writing and running unit tests with the Rust unit testing example.",
-    "total_views": 26,
+    "total_views": 126,
     "total_downloads": 6,
     "faqs": [
       {
@@ -2640,7 +2649,7 @@
     "detailed_description": "The Rust REST API project showcases the development of a RESTful API using the Rust programming language. Designed for intermediate Rust developers, this project covers topics such as routing, request handling, and data serialization in the context of building web services. By examining the API endpoints and data models in the project, developers can gain insights into designing and implementing RESTful services with Rust.\n\nTo set up and run the Rust REST API project:\n1. Clone the repository from the provided source code link.\n2. Navigate to the project directory.\n3. Ensure Rust and Cargo are installed on your system.\n4. Use Cargo to build and run the project: `cargo run`.\n5. Interact with the API endpoints using tools like cURL or Postman to test the functionality.\n\nBy exploring this project and experimenting with the Rust REST API, developers can enhance their skills in creating scalable and performant web services with Rust.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust REST API project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement a RESTful API.\n3. Practice building web services with the Rust REST API example.",
-    "total_views": 84,
+    "total_views": 184,
     "total_downloads": 17,
     "faqs": [
       {
@@ -2666,7 +2675,7 @@
     "detailed_description": "The Rust Database Connection project demonstrates how to establish a connection to a database using the Rust programming language. Targeted at intermediate Rust developers, this project covers database connectivity, query execution, and error handling in Rust applications. By examining the database interactions and connection pooling in the project, developers can deepen their understanding of working with databases in Rust.\n\nTo set up and run the Rust Database Connection project:\n1. Clone the repository from the provided source code link.\n2. Navigate to the project directory.\n3. Ensure Rust and Cargo are installed on your system.\n4. Use Cargo to build and run the project: `cargo run`.\n5. Connect to a database and execute queries to interact with data.\n\nBy engaging with this project, developers can enhance their skills in database programming and data access using Rust.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Database Connection project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to connect to a database.\n3. Practice interacting with databases using Rust with the Rust Database Connection example.",
-    "total_views": 45,
+    "total_views": 145,
     "total_downloads": 3,
     "faqs": [
       {
@@ -2688,7 +2697,7 @@
     "detailed_description": "The Rust Concurrency project provides examples of concurrent programming in the Rust programming language. It covers topics such as threads, synchronization, and parallelism, and is suitable for intermediate-level programmers. The project requires basic knowledge of Rust programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Rust Concurrency project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement concurrent programming.\n3. Practice writing concurrent programs using Rust with the Rust Concurrency example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Concurrency project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement concurrent programming.\n3. Practice writing concurrent programs using Rust with the Rust Concurrency example.",
-    "total_views": 22,
+    "total_views": 122,
     "total_downloads": 4,
     "faqs": [
       {
@@ -2710,7 +2719,7 @@
     "detailed_description": "The Rust Networking project provides examples of networking in the Rust programming language. It covers topics such as TCP/IP communication, socket programming, and network protocols, and is suitable for intermediate-level programmers. The project requires basic knowledge of Rust programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Rust Networking project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement networking.\n3. Practice building networked applications using Rust with the Rust Networking example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Networking project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement networking.\n3. Practice building networked applications using Rust with the Rust Networking example.",
-    "total_views": 24,
+    "total_views": 124,
     "total_downloads": 1,
     "faqs": [
       {
@@ -2732,8 +2741,8 @@
     "detailed_description": "The Rust Error Handling project provides examples of error handling in the Rust programming language. It covers topics such as error types, error propagation, and error recovery, and is suitable for intermediate-level programmers. The project requires basic knowledge of Rust programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Rust Error Handling project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to handle errors.\n3. Practice error handling techniques using Rust with the Rust Error Handling example",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Error Handling project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to handle errors.\n3. Practice error handling techniques using Rust with the Rust Error Handling example.",
-    "total_views": 16,
-    "total_downloads": 0,
+    "total_views": 216,
+    "total_downloads": 1,
     "faqs": [
       {
         "question": "Can I customize the error handling examples to include different error types?",
@@ -2754,7 +2763,7 @@
     "detailed_description": "The Rust Cryptography project provides examples of cryptographic techniques implemented in the Rust programming language. It covers topics such as encryption, decryption, hashing, and digital signatures, and is suitable for intermediate-level programmers. The project requires basic knowledge of Rust programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Rust Cryptography project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement cryptography.\n3. Practice cryptographic techniques using Rust with the Rust Cryptography example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust Cryptography project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement cryptography.\n3. Practice cryptographic techniques using Rust with the Rust Cryptography example.",
-    "total_views": 18,
+    "total_views": 218,
     "total_downloads": 2,
     "faqs": [
       {
@@ -2776,7 +2785,7 @@
     "detailed_description": "The Rust GUI Application project provides an example of building a graphical user interface (GUI) application using the Rust programming language. It covers topics such as window creation, event handling, and user interface design, and is suitable for intermediate-level programmers. The project requires basic knowledge of Rust programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Rust GUI Application project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement a GUI application.\n3. Practice building graphical user interfaces using Rust with the Rust GUI Application example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcsTuqo0jClc9asUqmJBjFMrlmbri4B7VgLg&s",
     "how_to_use": "To use the Rust GUI Application project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Rust programs to implement a GUI application.\n3. Practice building graphical user interfaces using Rust with the Rust GUI Application example.",
-    "total_views": 23,
+    "total_views": 323,
     "total_downloads": 1,
     "faqs": [
       {
@@ -2798,7 +2807,7 @@
     "detailed_description": "The Go Web Server project provides an example of a simple web server implemented in the Go programming language. It covers topics such as routing, request handling, and serving static files, and is suitable for intermediate-level programmers. The project requires basic knowledge of Go programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Go Web Server project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a web server.\n3. Practice building web applications with the Go web server example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh4wGYXXZ0N1h89LbTkOPcca6_NhU8Je_K4w&s",
     "how_to_use": "To use the Go Web Server project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a web server.\n3. Practice building web applications with the Go web server example.",
-    "total_views": 40,
+    "total_views": 340,
     "total_downloads": 12,
     "faqs": [
       {
@@ -2820,7 +2829,7 @@
     "detailed_description": "The Go Email Verification Tool project provides an example of an email verification tool implemented in the Go programming language. It covers topics such as email validation, domain verification, and syntax checking, and is suitable for intermediate-level programmers. The project requires basic knowledge of Go programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Go Email Verification Tool project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement an email verification tool.\n3. Practice verifying email addresses using Go with the Go Email Verification Tool example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU5nNxkdbzsyU87N4XEFt_in76g0AzOVW-tg&s",
     "how_to_use": "To use the Go Email Verification Tool project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement an email verification tool.\n3. Practice verifying email addresses using Go with the Go Email Verification Tool example.",
-    "total_views": 54,
+    "total_views": 354,
     "total_downloads": 13,
     "faqs": [
       {
@@ -2842,8 +2851,8 @@
     "detailed_description": "The Go Form Service project provides an example of a form service implemented in the Go programming language. It covers topics such as form handling, data validation, and submission processing, and is suitable for intermediate-level programmers. The project requires basic knowledge of Go programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Go Form Service project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a form service.\n3. Practice handling form submissions using Go with the Go Form Service example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHDXfC2NCzqvw18Ja-J26KTVn-rluFrlf6Fg&s",
     "how_to_use": "To use the Go Form Service project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a form service.\n3. Practice handling form submissions using Go with the Go Form Service example.",
-    "total_views": 45,
-    "total_downloads": 5,
+    "total_views": 245,
+    "total_downloads": 15,
     "faqs": [
       {
         "question": "Can I customize the form service to include additional form fields and validation rules?",
@@ -2864,8 +2873,8 @@
     "detailed_description": "The Go To-Do List project provides an example of a to-do list implemented in the Go programming language. It covers topics such as task management, item tracking, and user interaction, and is suitable for intermediate-level programmers. The project requires basic knowledge of Go programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Go To-Do List project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a to-do list.\n3. Practice managing tasks and to-do items using Go with the Go To-Do List example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHDXfC2NCzqvw18Ja-J26KTVn-rluFrlf6Fg&s",
     "how_to_use": "To use the Go To-Do List project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a to-do list.\n3. Practice managing tasks and to-do items using Go with the Go To-Do List example.",
-    "total_views": 23,
-    "total_downloads": 3,
+    "total_views": 323,
+    "total_downloads": 23,
     "faqs": [
       {
         "question": "Can I customize the to-do list to include additional features and task management options?",
@@ -2886,8 +2895,8 @@
     "detailed_description": "The Go URL Shortener project provides an example of a URL shortener implemented in the Go programming language. It covers topics such as URL redirection, link tracking, and analytics, and is suitable for intermediate-level programmers. The project requires basic knowledge of Go programming and can be completed in approximately 2 hours. The source code for this project is available on GitHub. To use the Go URL Shortener project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a URL shortener.\n3. Practice shortening and redirecting URLs using Go with the Go URL Shortener example.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHDXfC2NCzqvw18Ja-J26KTVn-rluFrlf6Fg&s",
     "how_to_use": "To use the Go URL Shortener project, follow these steps:\n1. Clone the repository from the source code link.\n2. Compile and run the Go programs to implement a URL shortener.\n3. Practice shortening and redirecting URLs using Go with the Go URL Shortener example.",
-    "total_views": 35,
-    "total_downloads": 2,
+    "total_views": 235,
+    "total_downloads": 22,
     "faqs": [
       {
         "question": "Can I customize the URL shortener to include additional features and analytics?",
@@ -2908,7 +2917,7 @@
     "detailed_description": "The Angular Chat App is a real-time chat application built using Angular and Firebase. It allows users to create accounts, join chat rooms, send messages, and view chat history. The application leverages Angular for the front-end and Firebase for real-time data synchronization, providing a seamless and interactive chat experience. By working on this project, you'll gain practical experience in building Angular applications, integrating Firebase services, and handling real-time data updates.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Chat App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 56,
+    "total_views": 256,
     "total_downloads": 13,
     "faqs": [
       {
@@ -2930,8 +2939,8 @@
     "detailed_description": "The Angular Dashboard is a project designed to help you build a responsive dashboard application using Angular. It features multiple widgets, charts, and data visualizations, providing users with insights and analytics. The application is built using Angular and styled with CSS, offering a clean and modern design. By working on this project, you'll gain practical experience in building Angular applications, creating interactive dashboards, and handling data visualization.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Dashboard, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 34,
-    "total_downloads": 8,
+    "total_views": 434,
+    "total_downloads": 48,
     "faqs": [
       {
         "question": "Can I customize the dashboard to include additional widgets and data visualization components?",
@@ -2952,8 +2961,8 @@
     "detailed_description": "The Angular E-commerce project is a fully functional e-commerce website built using Angular. It includes features such as product listing, product details, shopping cart, and checkout. The application leverages Angular for the front-end and can be integrated with a backend API for managing products and orders. By working on this project, you'll gain practical experience in building Angular applications, implementing e-commerce functionality, and integrating with backend APIs.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular E-commerce project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 34,
-    "total_downloads": 2,
+    "total_views": 234,
+    "total_downloads": 12,
     "faqs": [
       {
         "question": "Can I customize the e-commerce website to include additional product categories and payment methods?",
@@ -2974,8 +2983,8 @@
     "detailed_description": "The Angular Blog project is a simple blog website built using Angular. It allows users to create, read, update, and delete blog posts. The application leverages Angular for the front-end and can be integrated with a backend API for managing blog posts. By working on this project, you'll gain practical experience in building Angular applications, implementing CRUD functionality, and integrating with backend APIs.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Blog project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 24,
-    "total_downloads": 2,
+    "total_views": 224,
+    "total_downloads": 12,
     "faqs": [
       {
         "question": "Can I customize the blog website to include additional features such as comments and categories?",
@@ -2996,7 +3005,7 @@
     "detailed_description": "The Angular Task Manager project is a simple task management application built using Angular. It allows users to create, update, and delete tasks. The application leverages Angular for the front-end and can be integrated with a backend API for managing tasks. By working on this project, you'll gain practical experience in building Angular applications, implementing CRUD functionality, and handling task management.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Task Manager project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 34,
+    "total_views": 334,
     "total_downloads": 4,
     "faqs": [
       {
@@ -3018,7 +3027,7 @@
     "detailed_description": "The Angular Weather App is a simple weather application built using Angular. It allows users to search for weather information by location. The application leverages Angular for the front-end and can be integrated with a weather API for retrieving weather data. By working on this project, you'll gain practical experience in building Angular applications, making API requests, and displaying dynamic data.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Weather App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 57,
+    "total_views": 257,
     "total_downloads": 12,
     "faqs": [
       {
@@ -3040,8 +3049,8 @@
     "detailed_description": "The Angular Quiz App is a quiz application built using Angular. It allows users to take quizzes and view their scores. The application leverages Angular for the front-end and can be integrated with a backend API for managing quizzes and scores. By working on this project, you'll gain practical experience in building Angular applications, implementing quiz functionality, and handling user scores.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Quiz App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 34,
-    "total_downloads": 5,
+    "total_views": 334,
+    "total_downloads": 25,
     "faqs": [
       {
         "question": "Can I customize the quiz app to include different quiz categories and question types?",
@@ -3062,8 +3071,8 @@
     "detailed_description": "The Angular Recipe App is a recipe application built using Angular. It allows users to browse recipes, view recipe details, and save favorite recipes. The application leverages Angular for the front-end and can be integrated with a backend API for managing recipes and user preferences. By working on this project, you'll gain practical experience in building Angular applications, implementing recipe functionality, and handling user preferences.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Recipe App, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 25,
-    "total_downloads": 2,
+    "total_views": 225,
+    "total_downloads": 42,
     "faqs": [
       {
         "question": "Can I customize the recipe app to include additional recipe categories and search functionality?",
@@ -3084,8 +3093,8 @@
     "detailed_description": "The Angular Portfolio project is a personal portfolio website built using Angular. It showcases your projects, skills, and experience in a professional manner. The application leverages Angular for the front-end and can be customized to fit your personal branding. By working on this project, you'll gain practical experience in building Angular applications, creating a personal portfolio, and showcasing your work.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9FqrA6sFXh59kGldm0jvBFvBUNSyAubiNg&s",
     "how_to_use": "To use the Angular Portfolio project, follow these steps:\n1. Clone the repository from the source code link.\n2. Install dependencies using npm install.\n3. Start the development server using ng serve.\n4. Open the application in your browser at the provided live link.",
-    "total_views": 29,
-    "total_downloads": 3,
+    "total_views": 229,
+    "total_downloads": 23,
     "faqs": [
       {
         "question": "Can I customize the portfolio website to include additional sections and project details?",
