@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import projectTypes from '../data/projectTypes.json';
-import Footer from '../pages/Footer';
+import Navbar from '../Navbar';
+import projectTypes from '../../data/projectTypes.json';
+import Footer from '../../pages/Footer';
 import './ProjectTypes.css'; // Assuming you have a separate CSS file for custom styles
 import { Helmet } from 'react-helmet-async';
-import Breadcrumbs from './Breadcrumbs';  // Import the Breadcrumbs component
+import Breadcrumbs from '../Breadcrumbs';  // Import the Breadcrumbs component
 import { motion } from 'framer-motion'; // Import framer-motion
 
 const ProjectTypes = () => {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import heroImage from '../assets/College-Student.png';
@@ -8,12 +8,12 @@ import { motion } from 'framer-motion';
 import { useInView } from '../components/hooks/useInView';
 import './Home.css';
 import Statistics from './Statistics';
+import { saveAs } from 'file-saver';
 
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: {
-    opacity: 1,
-    y: 0,
+    opacity: 1, y: 0,
     transition: { type: 'spring', stiffness: 100 }
   }
 };
@@ -21,14 +21,42 @@ const containerVariants = {
 const itemVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: {
-    opacity: 1,
-    y: 0,
+    opacity: 1, y: 0,
     transition: { delay: 0.3, type: 'spring', stiffness: 100 }
   }
 };
 
 function Home() {
   const [setRef, inView] = useInView({ threshold: 0.2 });
+  const [email, setEmail] = useState('');
+  const [emailList, setEmailList] = useState([]);
+  const [message, setMessage] = useState('');
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('http://localhost:3030/email/submit-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email })
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setMessage('Subscribed successfully!');
+        setEmail(''); // Clear the email input after submission
+      } else {
+        setMessage(result.message || 'Subscription failed.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      setMessage('An error occurred. Please try again later.');
+    }
+  };
 
   return (
     <>
@@ -77,6 +105,30 @@ function Home() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        {/* Newsletter Subscription Section */}
+        <div className="row justify-content-center my-5">
+          <div className="col-md-8 text-center">
+            <h2 className="font-weight-bold mb-4">Subscribe to Our Newsletter</h2>
+            <p className="lead mb-4">Stay updated with the latest projects, ebooks, and interview questions delivered straight to your inbox.</p>
+            <form onSubmit={handleSubscribe} className="newsletter-form">
+              <div className="input-group mb-3">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+                <div className="input-group-append">
+                  <button className="btn btn-success" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+            {message && <p className="mt-3">{message}</p>}
+          </div>
         </div>
       </motion.div>
       <Footer />

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import ProjectCard from '../components/ProjectCard';
+import Navbar from './Navbar';
+import ProjectCard from '../components/project/ProjectCard';
 import projectsData from '../data/projects.json';
 import { Helmet } from 'react-helmet-async';
 import Footer from '../pages/Footer';
-import Breadcrumbs from '../components/Breadcrumbs';  // Import the Breadcrumbs component
+import Breadcrumbs from './Breadcrumbs';  // Import the Breadcrumbs component
 import { motion } from 'framer-motion'; // Import motion from framer-motion
 
 const Projects = () => {

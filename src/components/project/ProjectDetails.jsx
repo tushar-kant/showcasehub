@@ -1,12 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import projectsData from '../data/projects.json';
+import projectsData from '../../data/projects.json';
 import { Helmet } from 'react-helmet-async';
-import Footer from '../pages/Footer';
-import Navbar from './Navbar';
-import logoimg from '../assets/image1.png';
+import Footer from '../../pages/Footer';
+import Navbar from '../Navbar';
+import logoimg from '../../assets/image1.png';
 import './ProjectDetails.css';
-import Breadcrumbs from './Breadcrumbs';
+import Breadcrumbs from '../Breadcrumbs';
 import { motion } from 'framer-motion';
 
 const ProjectDetails = () => {

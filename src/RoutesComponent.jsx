@@ -3,15 +3,15 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, HashRouter,Navigate } from "react-router-dom";
 import Home from './components/Home';
 import Projects from './components/Projects';
-import ProjectTypes from './components/ProjectTypes';
 import BecomePartner from './components/BecomePartner';
+import ProjectTypes from './components/project/ProjectTypes';
 import TechnologyCategories from './components/Books/TechnologyCategories';
 import EbookList from './components/Books/EbookList';
 import JobListings from './components/JobListings';
 import Aboutus from './pages/Aboutus';
 import Disclaimer from './pages/Disclaimer';
 import Contactus from './pages/Contactus';
-import ProjectDetails from './components/ProjectDetails';
+import ProjectDetails from './components/project/ProjectDetails';
 import InterviewCategories from './components/Interview/InterviewCategories';
 import InterviewQuestions from './components/Interview/InterviewQuestions';
 
